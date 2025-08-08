@@ -1,0 +1,24 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Fri, 25 Apr 2014 12:25:03 +0300
+Subject: [PATCH] Sonera Finland changed MMS proxy port to 8080
+
+http://www5.sonera.fi/ohjeet/MMS-_ja_internetasetukset
+Both ports (80 and 8080) work at the moment.
+---
+ serviceproviders.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 54e56e99..995ee3b1 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -4624,7 +4624,7 @@ conceived.
+ 				<usage type="mms"/>
+ 				<name>Sonera MMS</name>
+ 				<mmsc>http://mms.sonera.fi:8002</mmsc>
+-				<mmsproxy>195.156.25.33:80</mmsproxy>
++				<mmsproxy>195.156.25.33:8080</mmsproxy>
+ 			</apn>
+ 		</gsm>
+ 	</provider>

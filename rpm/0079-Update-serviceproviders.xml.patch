@@ -1,33 +1,48 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Atlochowski <hucul@o2.pl>
-Date: Wed, 29 Sep 2021 23:55:26 +0200
+Date: Thu, 21 Oct 2021 12:21:29 +0200
 Subject: [PATCH] Update serviceproviders.xml
 
-[mbpi] Update Polish network Play
+[mbpi] Remove Polish mobile network Cyfrowy Polsat
 ---
- serviceproviders.xml | 5 +++--
- 1 file changed, 3 insertions(+), 2 deletions(-)
+ serviceproviders.xml | 20 --------------------
+ 1 file changed, 20 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 2e24f3da..ab8eafa7 100644
+index 3db02779..1e0ff537 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10268,7 +10268,7 @@ conceived.
- 		</gsm>
- 	</provider>
- 	<provider primary="true">
--		<name>Play Online</name>
-+		<name>Play</name>
- 		<gsm>
- 			<network-id mcc="260" mnc="06"/>
- 			<balance-check>
-@@ -10286,7 +10286,8 @@ conceived.
- 			<apn value="mms">
- 				<usage type="mms"/>
- 				<name>Play MMS</name>
--				<mmsc>http://10.10.28.164/mms/wapenc</mmsc>
-+				<mmsc>http://mmsc.play.pl/mms/wapenc</mmsc>
-+				<mmsproxy>10.10.25.5:8080</mmsproxy>
+@@ -10562,22 +10562,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
+-	<provider primary="true">
+-		<name>Cyfrowy Polsat</name>
+-		<gsm>
+-			<network-id mcc="260" mnc="12"/>
+-			<apn value="internet.cyfrowypolsat.pl">
+-				<plan type="postpaid"/>
+-				<usage type="internet"/>
+-			</apn>
+-			<apn value="mms.cyfrowypolsat.pl">
+-				<usage type="mms"/>
+-				<name>Cyfrowy Polsat MMS</name>
+-				<mmsc>http://mms.cyfrowypolsat.pl:8002/</mmsc>
+-				<mmsproxy>79.171.2.33:8080</mmsproxy>
+-			</apn>
+-		</gsm>
+-	</provider>
+ 	<provider primary="true">
+ 		<name>aero2</name>
+ 		<gsm>
+@@ -10601,10 +10585,6 @@ conceived.
+ 				<password>internet</password>
+ 			</apn>
+ 		</gsm>
+-		<cdma>
+-			<username>cdma@orange</username>
+-			<password>orange</password>
+-		</cdma>
+ 	</provider>
+  	<provider>
+  		<name>Heyah</name>

@@ -1,0 +1,81 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: atlochowski <hucul@o2.pl>
+Date: Tue, 20 Dec 2016 22:59:01 +0000
+Subject: [PATCH] Added RebBullMobile MVNO. MER#902
+
+---
+ serviceproviders.xml | 36 ++++++++++++++++++++++++++----------
+ 1 file changed, 26 insertions(+), 10 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 88f9665a..60d203c2 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -10592,7 +10592,7 @@ conceived.
+ 		</gsm>
+ 	</provider>
+ 	<!-- Polish MVNO operators -->
+-	<provider primary="false">
++	<provider>
+ 		<name>Multimo</name>
+ 		<gsm>
+ 			<network-id mcc="260" mnc="03"/>
+@@ -10621,7 +10621,7 @@ conceived.
+ 			<password>orange</password>
+ 		</cdma>
+ 	</provider>
+- 	<provider primary="false">
++ 	<provider>
+  		<name>Heyah</name>
+  		<gsm>
+  			<network-id mcc="260" mnc="02"/>
+@@ -10639,18 +10639,16 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider primary="false">
+- 	    <name>Virgin Mobile</name>
+- 		<gsm>
+- 			<network-id mcc="260" mnc="45"/>
++	<provider>
++		<name>Virgin Mobile</name>
++		<gsm>
++			<network-id mcc="260" mnc="45"/>
+ 			<balance-check>
+ 				<ussd>*101#</ussd>
+ 			</balance-check>
+- 			<apn value="internet">
+- 				<plan type="prepaid"/>
++			<apn value="internet">
++				<plan type="prepaid"/>
+ 				<usage type="internet"/>
+- 				<username></username>
+- 				<password></password>
+ 			</apn>
+ 			<apn value="mms">
+ 				<usage type="mms"/>
+@@ -10660,6 +10658,24 @@ conceived.
+ 			</apn>			
+ 		</gsm>
+ 	</provider>
++	<provider>
++		<name>RedBullMobile</name>
++		<gsm>
++			<network-id mcc="260" mnc="06"/>
++			<balance-check>
++				<ussd>*101#</ussd>
++			</balance-check>
++			<balance-top-up>
++				<ussd replacement="CODE">*111*CODE#</ussd>
++			</balance-top-up>
++			<apn value="mms">
++				<usage type="mms"/>
++				<name>RedBullMobile MMS</name>
++				<mmsc>http://10.10.28.164/mms/wapenc</mmsc>
++				<mmsproxy>10.10.25.5:8080</mmsproxy>
++			</apn>
++		</gsm>
++	</provider>
+  	<provider primary="false">
+ 		<name>Netia</name>
+ 		<gsm>

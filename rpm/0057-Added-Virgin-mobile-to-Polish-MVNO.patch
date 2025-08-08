@@ -1,0 +1,41 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: atlochowski <hucul@o2.pl>
+Date: Thu, 19 Jan 2017 10:28:19 +0000
+Subject: [PATCH] Added Virgin mobile to Polish MVNO
+
+---
+ serviceproviders.xml | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 469970f3..614830fa 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -10642,6 +10642,27 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
++	<provider primary="false">
++ 	    <name>Virgin Mobile</name>
++ 		<gsm>
++ 			<network-id mcc="260" mnc="45"/>
++			<balance-check>
++				<ussd>*101#</ussd>
++			</balance-check>
++ 			<apn value="internet">
++ 				<plan type="prepaid"/>
++				<usage type="internet"/>
++ 				<username></username>
++ 				<password></password>
++			</apn>
++			<apn value="mms">
++				<usage type="mms"/>
++				<name>mms</name>
++				<mmsc>http://mmsc.net.pl/mms/wapenc</mmsc>
++				<mmsproxy>10.10.25.5:8080</mmsproxy>
++			</apn>			
++		</gsm>
++	</provider>
+  	<provider primary="false">
+ 		<name>Netia</name>
+ 		<gsm>
