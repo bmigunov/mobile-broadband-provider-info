@@ -9,10 +9,10 @@ Subject: [PATCH] Update serviceproviders.xml
  1 file changed, 20 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e0cc8319..f83c8911 100644
+index 5568d50c..118dd1a4 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10930,22 +10930,6 @@ conceived.
+@@ -10970,22 +10970,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -35,7 +35,7 @@ index e0cc8319..f83c8911 100644
  	<provider primary="true">
  		<name>aero2</name>
  		<gsm>
-@@ -10969,10 +10953,6 @@ conceived.
+@@ -11009,10 +10993,6 @@ conceived.
  				<password>internet</password>
  			</apn>
  		</gsm>

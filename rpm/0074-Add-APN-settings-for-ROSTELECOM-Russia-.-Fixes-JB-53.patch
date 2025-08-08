@@ -9,10 +9,10 @@ Rostelecom is a Tele2 RU -based MVNO.
  1 file changed, 23 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 88cc5710..25901183 100644
+index 3f8461ec..3c230fcd 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11867,7 +11867,7 @@ conceived.
+@@ -11907,7 +11907,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -21,7 +21,7 @@ index 88cc5710..25901183 100644
  		<name>Tele2</name>
  		<name xml:lang="ru">Теле2</name>
  		<gsm>
-@@ -11875,6 +11875,7 @@ conceived.
+@@ -11915,6 +11915,7 @@ conceived.
  			<apn value="internet.tele2.ru">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -29,7 +29,7 @@ index 88cc5710..25901183 100644
  			</apn>
  			<apn value="mms.tele2.ru">
  				<usage type="mms"/>
-@@ -11884,6 +11885,27 @@ conceived.
+@@ -11924,6 +11925,27 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

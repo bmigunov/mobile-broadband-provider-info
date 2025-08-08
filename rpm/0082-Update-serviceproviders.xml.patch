@@ -9,10 +9,10 @@ azeri providers update
  1 file changed, 17 insertions(+), 9 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 50b3b104..b989306b 100644
+index 3820b9e4..237481cb 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -1051,23 +1051,31 @@ conceived.
+@@ -1052,23 +1052,31 @@ conceived.
  		<name>Bakcell</name>
  		<gsm>
  			<network-id mcc="400" mnc="02"/>
@@ -50,7 +50,7 @@ index 50b3b104..b989306b 100644
  		</gsm>
  	</provider>
  </country>
-@@ -5342,9 +5350,9 @@ conceived.
+@@ -5375,9 +5383,9 @@ conceived.
  		<gsm>
  			<network-id mcc="282" mnc="01"/>
  			<apn value="internet">
@@ -61,7 +61,7 @@ index 50b3b104..b989306b 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -5359,9 +5367,9 @@ conceived.
+@@ -5392,9 +5400,9 @@ conceived.
  		<gsm>
  			<network-id mcc="282" mnc="02"/>
  			<apn value="3g.ge">
@@ -72,7 +72,7 @@ index 50b3b104..b989306b 100644
  			</apn>
  			<apn value="mms.ge">
  				<usage type="mms"/>
-@@ -5376,9 +5384,9 @@ conceived.
+@@ -5409,9 +5417,9 @@ conceived.
  		<gsm>
  			<network-id mcc="282" mnc="04"/>
  			<apn value="internet.ge.beeline.net">

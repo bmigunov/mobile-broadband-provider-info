@@ -8,10 +8,10 @@ Subject: [PATCH] Poland: Era -> T-Mobile
  1 file changed, 4 insertions(+), 6 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index ce262b26..b9ac707c 100644
+index ef46847f..5b92f1e7 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10961,7 +10961,7 @@ conceived.
+@@ -10933,7 +10933,7 @@ conceived.
  <country code="pl">
  	<!-- Polish physical operators -->
  	<provider primary="true">
@@ -20,7 +20,7 @@ index ce262b26..b9ac707c 100644
  		<gsm>
  			<network-id mcc="260" mnc="02"/>
  			<voicemail>602950</voicemail>
-@@ -10978,12 +10978,10 @@ conceived.
+@@ -10950,12 +10950,10 @@ conceived.
  				<dns>213.158.194.1</dns>
  				<dns>213.158.193.38</dns>
  			</apn>

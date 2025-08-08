@@ -9,10 +9,10 @@ Update for french auchan telecom
  1 file changed, 10 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index ca11d6b5..c464baf2 100644
+index fe399573..034c0791 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4688,11 +4688,19 @@ conceived.
+@@ -4721,11 +4721,19 @@ conceived.
  <!-- France -->
  <country code="fr">
  	<provider>

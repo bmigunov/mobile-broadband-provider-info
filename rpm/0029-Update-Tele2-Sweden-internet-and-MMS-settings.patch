@@ -8,10 +8,10 @@ Subject: [PATCH] Update Tele2 Sweden internet and MMS settings
  1 file changed, 2 insertions(+), 8 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index f6a9c683..6fabda9b 100644
+index dcf7b9cc..1a7c3074 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -12451,18 +12451,12 @@ conceived.
+@@ -12491,18 +12491,12 @@ conceived.
  				<dtmf>211</dtmf>
  			</balance-check>
  

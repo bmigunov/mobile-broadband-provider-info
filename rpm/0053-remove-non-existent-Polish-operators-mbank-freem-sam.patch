@@ -8,10 +8,10 @@ Subject: [PATCH] remove non-existent Polish operators(mbank, freem, samiswoi)
  1 file changed, 51 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 3baaa3f8..4ac4ff5a 100644
+index 399ca962..5cb7bff2 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10871,28 +10871,12 @@ conceived.
+@@ -10911,28 +10911,12 @@ conceived.
  				<mmsc>http://mms.fmgmobile.pl:8002/</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>
@@ -40,7 +40,7 @@ index 3baaa3f8..4ac4ff5a 100644
  		</gsm>
  	</provider>
  	<provider primary="true">
-@@ -10951,16 +10935,6 @@ conceived.
+@@ -10991,16 +10975,6 @@ conceived.
  			<password>orange</password>
  		</cdma>
  	</provider>
@@ -57,7 +57,7 @@ index 3baaa3f8..4ac4ff5a 100644
   	<provider primary="false">
   		<name>Heyah</name>
   		<gsm>
-@@ -10999,19 +10973,6 @@ conceived.
+@@ -11039,19 +11013,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -77,7 +77,7 @@ index 3baaa3f8..4ac4ff5a 100644
  	<provider primary="false">
  		<name>INEA</name>
  		<gsm>
-@@ -11023,18 +10984,6 @@ conceived.
+@@ -11063,18 +11024,6 @@ conceived.
   			</apn>
   		</gsm>
   	</provider>

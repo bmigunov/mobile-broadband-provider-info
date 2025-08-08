@@ -9,10 +9,10 @@ Checked from http://www.ofcom.org.uk/static/numbering/#mnc
  1 file changed, 8 insertions(+), 7 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index fcd16fab..4fb00f19 100644
+index 650dfcae..40b97251 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5138,7 +5138,7 @@ conceived.
+@@ -5103,7 +5103,7 @@ conceived.
  
  <!-- Britain -->
  <country code="gb">
@@ -21,7 +21,7 @@ index fcd16fab..4fb00f19 100644
  		<name>BT Mobile</name>
  		<gsm>
  			<network-id mcc="234" mnc="00"/>
-@@ -5168,7 +5168,7 @@ conceived.
+@@ -5133,7 +5133,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -30,7 +30,7 @@ index fcd16fab..4fb00f19 100644
  		<name>O2</name>
  		<gsm>
  			<network-id mcc="234" mnc="02"/>
-@@ -5257,10 +5257,11 @@ conceived.
+@@ -5222,10 +5222,11 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -43,7 +43,7 @@ index fcd16fab..4fb00f19 100644
  			<apn value="mobile.talktalk.co.uk">
  				<gateway>212.183.137.12:8799</gateway>
  				<username>wap</username>
-@@ -5268,7 +5269,7 @@ conceived.
+@@ -5233,7 +5234,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -52,7 +52,7 @@ index fcd16fab..4fb00f19 100644
  		<name>T-Mobile</name>
  		<gsm>
  			<network-id mcc="234" mnc="30"/>
-@@ -5349,7 +5350,7 @@ conceived.
+@@ -5314,7 +5315,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -61,7 +61,7 @@ index fcd16fab..4fb00f19 100644
  		<name>Vodafone</name>
  		<gsm>
  			<network-id mcc="234" mnc="15"/>
-@@ -5423,7 +5424,7 @@ conceived.
+@@ -5388,7 +5389,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -70,7 +70,7 @@ index fcd16fab..4fb00f19 100644
  		<name>3</name>
  		<gsm>
  			<network-id mcc="234" mnc="20"/>
-@@ -5441,7 +5442,7 @@ conceived.
+@@ -5406,7 +5407,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

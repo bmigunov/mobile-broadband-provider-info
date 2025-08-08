@@ -1,6 +1,6 @@
 Name:       mobile-broadband-provider-info
 Summary:    Mobile Broadband Dataprovider Database
-Version:    20190116
+Version:    20190618
 Release:    1
 License:    Public Domain
 BuildArch:  noarch

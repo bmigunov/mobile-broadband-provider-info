@@ -9,10 +9,10 @@ Subject: [PATCH] Update serviceproviders.xml
  1 file changed, 3 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 25901183..e0cc8319 100644
+index 3c230fcd..5568d50c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10811,7 +10811,7 @@ conceived.
+@@ -10851,7 +10851,7 @@ conceived.
  		</gsm>
  	</provider>
  	<provider primary="true">
@@ -21,7 +21,7 @@ index 25901183..e0cc8319 100644
  		<gsm>
  			<network-id mcc="260" mnc="06"/>
  			<balance-check>
-@@ -10829,7 +10829,8 @@ conceived.
+@@ -10869,7 +10869,8 @@ conceived.
  			<apn value="mms">
  				<usage type="mms"/>
  				<name>Play MMS</name>

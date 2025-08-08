@@ -8,10 +8,10 @@ Subject: [PATCH] Settings for Cricket Wireless (USA)
  1 file changed, 17 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 6fabda9b..69331d88 100644
+index 1a7c3074..046ebcbb 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -13858,7 +13858,6 @@ conceived.
+@@ -13898,7 +13898,6 @@ conceived.
  			<network-id mcc="310" mnc="030"/>
  			<network-id mcc="310" mnc="038"/>
  			<network-id mcc="310" mnc="090"/>
@@ -19,7 +19,7 @@ index 6fabda9b..69331d88 100644
  			<network-id mcc="310" mnc="170"/>
  			<network-id mcc="310" mnc="410"/>
  			<network-id mcc="310" mnc="560"/>
-@@ -13918,6 +13917,23 @@ conceived.
+@@ -13958,6 +13957,23 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

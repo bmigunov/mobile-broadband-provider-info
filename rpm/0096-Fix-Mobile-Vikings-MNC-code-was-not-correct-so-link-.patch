@@ -16,10 +16,10 @@ https://support.mobilevikings.be/hc/nl/articles/202836041-Ik-heb-geen-mobiel-int
  1 file changed, 3 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index a75a7777..0c525acf 100644
+index 94c49170..77d7e58d 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -1493,11 +1493,12 @@ conceived.
+@@ -1494,11 +1494,12 @@ conceived.
  	<provider>
  		<name>Mobile Vikings</name>
  		<gsm>

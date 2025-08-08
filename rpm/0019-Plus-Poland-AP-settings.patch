@@ -8,10 +8,10 @@ Subject: [PATCH] Plus (Poland) AP settings
  1 file changed, 10 insertions(+), 6 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index cb5e92c7..ce262b26 100644
+index 51688359..ef46847f 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11093,6 +11093,10 @@ conceived.
+@@ -11065,6 +11065,10 @@ conceived.
  			<balance-top-up>
  				<ussd replacement="CODE">*123*CODE#</ussd>
  			</balance-top-up>
@@ -22,7 +22,7 @@ index cb5e92c7..ce262b26 100644
  			<apn value="www.plusgsm.pl">
  				<plan type="postpaid"/>
  				<plan type="prepaid"/>
-@@ -11133,6 +11137,12 @@ conceived.
+@@ -11105,6 +11109,12 @@ conceived.
  				<dns>212.2.96.51</dns>
  				<dns>212.2.96.52</dns>
  			</apn>
@@ -35,7 +35,7 @@ index cb5e92c7..ce262b26 100644
  			<apn value="mms.fmgmobile.pl">
  				<usage type="mms"/>
  				<name>FM Group Mobile MMS</name>
-@@ -11165,12 +11175,6 @@ conceived.
+@@ -11137,12 +11147,6 @@ conceived.
  				<mmsc>http://mms.plusgsm.pl:8002</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>

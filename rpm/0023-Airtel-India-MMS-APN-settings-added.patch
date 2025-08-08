@@ -8,10 +8,10 @@ Subject: [PATCH] Airtel India MMS APN settings added
  1 file changed, 7 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 656a8751..7f1bb26d 100644
+index 5809772a..cdf17600 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6919,13 +6919,19 @@ conceived.
+@@ -6884,13 +6884,19 @@ conceived.
  			<network-id mcc="405" mnc="52"/>
  			<network-id mcc="405" mnc="54"/>
  			<network-id mcc="405" mnc="56"/>

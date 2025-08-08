@@ -8,10 +8,10 @@ Subject: [PATCH] Montenegro providers update
  1 file changed, 9 insertions(+), 9 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index b70f9c81..4ce9850a 100644
+index 8dd29ee4..7e6da4dc 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -8925,19 +8925,19 @@ conceived.
+@@ -8965,19 +8965,19 @@ conceived.
  <!-- Montenegro -->
  <country code="me">
  	<provider>
@@ -36,7 +36,7 @@ index b70f9c81..4ce9850a 100644
  				<mmsproxy>192.168.246.5:8080</mmsproxy>
  			</apn>
  		</gsm>
-@@ -8984,17 +8984,17 @@ conceived.
+@@ -9024,17 +9024,17 @@ conceived.
  		<name>m:tel</name>
  		<gsm>
  			<network-id mcc="297" mnc="03"/>

@@ -8,10 +8,10 @@ Subject: [PATCH] Fix Orange Belgium network APN
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 7afa380e..18e8f1e9 100644
+index fe423e9e..7966be60 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -1425,9 +1425,10 @@ conceived.
+@@ -1426,9 +1426,10 @@ conceived.
  		<name>Orange</name>
  		<gsm>
  			<network-id mcc="206" mnc="10"/>

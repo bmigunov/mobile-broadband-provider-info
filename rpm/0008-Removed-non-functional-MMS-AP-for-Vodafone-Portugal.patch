@@ -8,10 +8,10 @@ Subject: [PATCH] Removed non-functional MMS AP for Vodafone Portugal
  1 file changed, 7 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 9e31535e..fd7f3907 100644
+index 5b0d4e9a..124faa37 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11524,17 +11524,10 @@ conceived.
+@@ -11496,17 +11496,10 @@ conceived.
  				<name>Vodafone Internet</name>
  			</apn>
  			<apn value="vas.vodafone.pt">

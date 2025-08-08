@@ -8,10 +8,10 @@ Subject: [PATCH] Added RebBullMobile MVNO. MER#902
  1 file changed, 26 insertions(+), 10 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 52a81843..35b76b35 100644
+index 61b22f12..11bd8e29 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10919,7 +10919,7 @@ conceived.
+@@ -10959,7 +10959,7 @@ conceived.
  		</gsm>
  	</provider>
  	<!-- Polish MVNO operators -->
@@ -20,7 +20,7 @@ index 52a81843..35b76b35 100644
  		<name>Multimo</name>
  		<gsm>
  			<network-id mcc="260" mnc="03"/>
-@@ -10948,7 +10948,7 @@ conceived.
+@@ -10988,7 +10988,7 @@ conceived.
  			<password>orange</password>
  		</cdma>
  	</provider>
@@ -29,7 +29,7 @@ index 52a81843..35b76b35 100644
   		<name>Heyah</name>
   		<gsm>
   			<network-id mcc="260" mnc="02"/>
-@@ -10966,18 +10966,16 @@ conceived.
+@@ -11006,18 +11006,16 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -54,7 +54,7 @@ index 52a81843..35b76b35 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -10987,6 +10985,24 @@ conceived.
+@@ -11027,6 +11025,24 @@ conceived.
  			</apn>			
  		</gsm>
  	</provider>

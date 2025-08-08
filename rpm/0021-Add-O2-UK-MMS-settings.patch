@@ -11,10 +11,10 @@ under GiffGaff UK MVNO section.
  1 file changed, 11 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index b9ac707c..017cb98a 100644
+index 5b92f1e7..7bd23991 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5183,8 +5183,10 @@ conceived.
+@@ -5148,8 +5148,10 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Contract</name>
@@ -25,7 +25,7 @@ index b9ac707c..017cb98a 100644
  				<dns>193.113.200.200</dns>
  				<dns>193.113.200.201</dns>
  			</apn>
-@@ -5227,6 +5229,15 @@ conceived.
+@@ -5192,6 +5194,15 @@ conceived.
  				<username>o2wap</username>
  				<password>password</password>
  			</apn>

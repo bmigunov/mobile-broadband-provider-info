@@ -9,10 +9,10 @@ remove cdma from Orange Poland
  1 file changed, 4 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index c464baf2..e1bc675f 100644
+index 034c0791..2859733d 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10879,10 +10879,6 @@ conceived.
+@@ -10919,10 +10919,6 @@ conceived.
  				<mmsproxy>192.168.6.104:8080</mmsproxy>
  			</apn>
  		</gsm>

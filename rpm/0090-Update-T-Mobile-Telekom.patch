@@ -8,10 +8,10 @@ Subject: [PATCH] Update T-Mobile(Telekom)
  1 file changed, 17 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 159d5f6a..287cd449 100644
+index 8a5435c5..5f062c1a 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3364,6 +3364,23 @@ conceived.
+@@ -3371,6 +3371,23 @@ conceived.
  				<username>t-mobile</username>
  				<password>tm</password>
  			</apn>

@@ -8,10 +8,10 @@ Subject: [PATCH] Added settings for Bolivia. Fixes JB#39492
  1 file changed, 55 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 246b135a..ddbc6666 100644
+index 7e9abebc..d741d63c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -1676,6 +1676,61 @@ conceived.
+@@ -1677,6 +1677,61 @@ conceived.
  	</provider>
  </country>
  

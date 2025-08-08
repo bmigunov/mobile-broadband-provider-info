@@ -8,10 +8,10 @@ Subject: [PATCH] Updated Virgin mobile (Poland) APN. MER#902
  1 file changed, 9 insertions(+), 11 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index abde3ffd..fc67da57 100644
+index cd1b346c..839044b9 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11021,22 +11021,20 @@ conceived.
+@@ -11061,22 +11061,20 @@ conceived.
  		</gsm>
  	</provider>
  	<provider>

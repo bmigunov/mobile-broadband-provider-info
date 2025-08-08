@@ -17,10 +17,10 @@ Tajik mobile operators added to the list
  1 file changed, 91 insertions(+), 37 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index fc67da57..feb8b515 100644
+index 839044b9..7e798df0 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10825,7 +10825,6 @@ conceived.
+@@ -10865,7 +10865,6 @@ conceived.
  				<usage type="mms"/>
  				<name>Play MMS</name>
  				<mmsc>http://10.10.28.164/mms/wapenc</mmsc>
@@ -28,7 +28,7 @@ index fc67da57..feb8b515 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -10865,14 +10864,6 @@ conceived.
+@@ -10905,14 +10904,6 @@ conceived.
  				<mmsc>http://mms.orange.pl</mmsc>
  				<mmsproxy>192.168.6.104:8080</mmsproxy>
  			</apn>
@@ -43,7 +43,7 @@ index fc67da57..feb8b515 100644
  		</gsm>
  		<cdma>
  			<username>cdma@orange</username>
-@@ -10919,13 +10910,6 @@ conceived.
+@@ -10959,13 +10950,6 @@ conceived.
  				<username>plusgsm</username>
  				<password>plusgsm</password>
  			</apn>
@@ -57,7 +57,7 @@ index fc67da57..feb8b515 100644
  			<apn value="mms">
  				<usage type="mms"/>
  				<name>Plus MMS</name>
-@@ -10938,19 +10922,13 @@ conceived.
+@@ -10978,19 +10962,13 @@ conceived.
  				<mmsc>http://mms.fmgmobile.pl:8002/</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>
@@ -78,7 +78,7 @@ index fc67da57..feb8b515 100644
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>
-@@ -10984,18 +10962,6 @@ conceived.
+@@ -11024,18 +11002,6 @@ conceived.
  				<username>internet</username>
  				<password>internet</password>
  			</apn>
@@ -97,7 +97,7 @@ index fc67da57..feb8b515 100644
  		</gsm>
  		<cdma>
  			<username>cdma@orange</username>
-@@ -11063,6 +11029,12 @@ conceived.
+@@ -11103,6 +11069,12 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>
@@ -110,7 +110,7 @@ index fc67da57..feb8b515 100644
  		</gsm>
  	</provider>
  	<provider>
-@@ -11073,16 +11045,20 @@ conceived.
+@@ -11113,16 +11085,20 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>
@@ -133,7 +133,7 @@ index fc67da57..feb8b515 100644
   			</apn>
   		</gsm>
   	</provider>
-@@ -12821,6 +12797,84 @@ conceived.
+@@ -12861,6 +12837,84 @@ conceived.
  	</provider>
  </country>
  

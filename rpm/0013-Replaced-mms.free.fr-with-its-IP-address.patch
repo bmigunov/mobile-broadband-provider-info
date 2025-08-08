@@ -9,10 +9,10 @@ As recommended by the operator. That takes DNS out of the picture.
  1 file changed, 1 insertion(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e558ab8a..4350c18a 100644
+index 26dc9494..cf2a92a5 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4916,6 +4916,7 @@ conceived.
+@@ -4881,6 +4881,7 @@ conceived.
  				<usage type="mms"/>
  				<name>Free Mobile MMS</name>
  				<mmsc>http://mms.free.fr</mmsc>

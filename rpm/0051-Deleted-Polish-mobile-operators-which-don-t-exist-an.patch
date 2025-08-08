@@ -14,10 +14,10 @@ Aster is no more.
  1 file changed, 57 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 784ae8f3..15082a87 100644
+index 508e76d7..32123951 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10736,14 +10736,6 @@ conceived.
+@@ -10776,14 +10776,6 @@ conceived.
  				<mmsc>http:/mms.heyah.pl/servlets/mms</mmsc>
  				<mmsproxy>213.158.194.57:8080</mmsproxy>
  			</apn>
@@ -32,7 +32,7 @@ index 784ae8f3..15082a87 100644
  		</gsm>
  	</provider>
  	<provider primary="true">
-@@ -10879,12 +10871,6 @@ conceived.
+@@ -10919,12 +10911,6 @@ conceived.
  				<mmsc>http://mms.fmgmobile.pl:8002/</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>
@@ -45,7 +45,7 @@ index 784ae8f3..15082a87 100644
  			<apn value="mms.mobile.pl">
  				<usage type="mms"/>
  				<name>mBank mobile MMS</name>
-@@ -10893,12 +10879,6 @@ conceived.
+@@ -10933,12 +10919,6 @@ conceived.
  				<mmsc>http://mms.mobile.pl:8080</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>
@@ -58,7 +58,7 @@ index 784ae8f3..15082a87 100644
  			<apn value="mms.plusgsm.pl">
  				<usage type="mms"/>
  				<name>Plus MMS</name>
-@@ -10999,31 +10979,6 @@ conceived.
+@@ -11039,31 +11019,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -90,7 +90,7 @@ index 784ae8f3..15082a87 100644
   	<provider primary="false">
  		<name>Netia</name>
  		<gsm>
-@@ -11068,18 +11023,6 @@ conceived.
+@@ -11108,18 +11063,6 @@ conceived.
   			</apn>
   		</gsm>
   	</provider>

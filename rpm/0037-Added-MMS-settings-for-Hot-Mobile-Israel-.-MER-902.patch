@@ -8,10 +8,10 @@ Subject: [PATCH] Added MMS settings for Hot Mobile (Israel). MER#902
  1 file changed, 7 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index aa0082a4..97101634 100644
+index b3c00df9..3ef72ae7 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6694,6 +6694,13 @@ conceived.
+@@ -6727,6 +6727,13 @@ conceived.
  			<apn value="net.hotm">
  				<plan type="postpaid"/>
  				<usage type="internet"/>

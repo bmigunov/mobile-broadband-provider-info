@@ -8,10 +8,10 @@ Subject: [PATCH] Updated AT&T settings. MER#902
  1 file changed, 7 insertions(+), 49 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 2f233021..a7c82ed2 100644
+index 503b8ce1..e6499605 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -13518,58 +13518,16 @@ conceived.
+@@ -13558,58 +13558,16 @@ conceived.
  			<network-id mcc="310" mnc="410"/>
  			<network-id mcc="310" mnc="560"/>
  			<network-id mcc="310" mnc="680"/>

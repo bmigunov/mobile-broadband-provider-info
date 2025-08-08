@@ -9,10 +9,10 @@ Change t-mobile UK to EE and update to current EE credentials
  1 file changed, 5 insertions(+), 18 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 287cd449..80c6c68e 100644
+index 5f062c1a..c14e0488 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5134,31 +5134,18 @@ conceived.
+@@ -5167,31 +5167,18 @@ conceived.
  		</gsm>
  	</provider>
  	<provider primary="true">

@@ -8,10 +8,10 @@ Subject: [PATCH] Added setup for MOI (Finland). MER#902
  1 file changed, 18 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 4ac4ff5a..20fb4bea 100644
+index 5cb7bff2..fda90ca6 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4402,7 +4402,7 @@ conceived.
+@@ -4430,7 +4430,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -20,7 +20,7 @@ index 4ac4ff5a..20fb4bea 100644
  		<name>DNA</name>
  		<gsm>
  			<network-id mcc="244" mnc="03"/>
-@@ -4425,6 +4425,22 @@ conceived.
+@@ -4458,6 +4458,22 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -43,7 +43,7 @@ index 4ac4ff5a..20fb4bea 100644
  	<provider>
  		<name>Elisa</name>
  		<gsm>
-@@ -4508,7 +4524,7 @@ conceived.
+@@ -4541,7 +4557,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

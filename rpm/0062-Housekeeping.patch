@@ -8,10 +8,10 @@ Subject: [PATCH] Housekeeping
  1 file changed, 23 insertions(+), 25 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 8fdc3908..bcddfad7 100644
+index 18fd6da9..aaab214e 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -2838,10 +2838,10 @@ conceived.
+@@ -2839,10 +2839,10 @@ conceived.
  		<name>eTb</name>
  		<gsm>
  			<apn value="moviletb.net.co">
@@ -26,7 +26,7 @@ index 8fdc3908..bcddfad7 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -5449,15 +5449,14 @@ conceived.
+@@ -5482,15 +5482,14 @@ conceived.
  
  <!-- Greenland -->
  <country code="gl">
@@ -49,7 +49,7 @@ index 8fdc3908..bcddfad7 100644
  </country>
  
  <!-- Greece -->
-@@ -9974,7 +9973,7 @@ conceived.
+@@ -10014,7 +10013,7 @@ conceived.
  	</provider>
  	<provider>
  		<!-- MVNO operating on Telia's network -->
@@ -58,7 +58,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>Chess</name>
  		<gsm>
  			<network-id mcc="242" mnc="02"/>
-@@ -10003,7 +10002,7 @@ conceived.
+@@ -10043,7 +10042,7 @@ conceived.
  	</provider>
  	<provider>
  		<!-- MVNO operating on Telia's network -->
@@ -67,7 +67,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>OneCall</name>
  		<gsm>
  			<network-id mcc="242" mnc="02"/>
-@@ -11003,7 +11002,7 @@ conceived.
+@@ -11043,7 +11042,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -76,7 +76,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>Netia</name>
  		<gsm>
  			<network-id mcc="260" mnc="06"/>
-@@ -11013,7 +11012,7 @@ conceived.
+@@ -11053,7 +11052,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -85,7 +85,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>Vectra</name>
  		<gsm>
  			<network-id mcc="260" mnc="06"/>
-@@ -11023,7 +11022,7 @@ conceived.
+@@ -11063,7 +11062,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -94,7 +94,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>INEA</name>
  		<gsm>
  			<network-id mcc="260" mnc="03"/>
-@@ -11034,14 +11033,14 @@ conceived.
+@@ -11074,14 +11073,14 @@ conceived.
   			</apn>
   		</gsm>
   	</provider>
@@ -111,7 +111,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>a2mobile</name>
  		<gsm>
  			<network-id mcc="260" mnc="08"/>
-@@ -13467,7 +13466,7 @@ conceived.
+@@ -13507,7 +13506,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -120,7 +120,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>Orange</name>
  		<gsm>
  			<network-id mcc="641" mnc="14"/>
-@@ -13482,7 +13481,7 @@ conceived.
+@@ -13522,7 +13521,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -129,7 +129,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>UTL</name>
  		<gsm>
  			<network-id mcc="641" mnc="11"/>
-@@ -13504,7 +13503,7 @@ conceived.
+@@ -13544,7 +13543,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -138,7 +138,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>Warid</name>
  		<gsm>
  			<network-id mcc="641" mnc="22"/>
-@@ -13515,7 +13514,7 @@ conceived.
+@@ -13555,7 +13554,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -147,7 +147,7 @@ index 8fdc3908..bcddfad7 100644
  		<name>Zain</name>
  		<gsm>
  			<network-id mcc="641" mnc="01"/>
-@@ -13615,7 +13614,7 @@ conceived.
+@@ -13655,7 +13654,7 @@ conceived.
  				<usage type="internet"/>
  				<name>Internet with VPN (old)</name>
  			</apn>
@@ -156,7 +156,7 @@ index 8fdc3908..bcddfad7 100644
  			<apn value="internet2.voicestream.com">
  				<usage type="mms"/>
  				<name>T-Mobile MMS</name>
-@@ -14941,4 +14940,3 @@ conceived.
+@@ -14981,4 +14980,3 @@ conceived.
  </country>
  
  </serviceproviders>

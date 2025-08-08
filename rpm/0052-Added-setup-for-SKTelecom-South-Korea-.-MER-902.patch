@@ -8,10 +8,10 @@ Subject: [PATCH] Added setup for SKTelecom (South Korea). MER#902
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 15082a87..3baaa3f8 100644
+index 32123951..399ca962 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -8056,9 +8056,9 @@ conceived.
+@@ -8096,9 +8096,9 @@ conceived.
  			</apn>
  			<apn value="lte.sktelecom.com">
  				<usage type="mms"/>

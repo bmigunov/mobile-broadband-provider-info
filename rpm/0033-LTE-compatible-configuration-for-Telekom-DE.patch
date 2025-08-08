@@ -8,10 +8,10 @@ Subject: [PATCH] LTE compatible configuration for Telekom DE
  1 file changed, 13 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index dec796ec..e86e7d34 100644
+index f73b3eb5..df7a7506 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3410,6 +3410,11 @@ conceived.
+@@ -3417,6 +3417,11 @@ conceived.
  			<balance-top-up>
  				<ussd replacement="CODE">*101*CODE#</ussd>
  			</balance-top-up>
@@ -23,7 +23,7 @@ index dec796ec..e86e7d34 100644
  			<apn value="internet.t-d1.de">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
-@@ -3425,6 +3430,14 @@ conceived.
+@@ -3432,6 +3437,14 @@ conceived.
  				<dns>10.74.83.22</dns>
  				<dns>193.254.160.1</dns>
  			</apn>

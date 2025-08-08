@@ -8,10 +8,10 @@ Subject: [PATCH] Update serviceproviders.xml
  1 file changed, 2 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 80c6c68e..7574b3af 100644
+index c14e0488..67b6abea 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5145,6 +5145,8 @@ conceived.
+@@ -5178,6 +5178,8 @@ conceived.
  			<apn value="everywhere">
  				<usage type="mms"/>
  				<name>MMS</name>

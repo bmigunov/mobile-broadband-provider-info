@@ -8,10 +8,10 @@ Subject: [PATCH] MMS settings for Tele2 Sweden
  1 file changed, 7 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 32d7620e..d000d376 100644
+index 225e0123..4fe4359c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -12490,11 +12490,10 @@ conceived.
+@@ -12462,11 +12462,10 @@ conceived.
  				<dtmf>211</dtmf>
  			</balance-check>
  
@@ -24,7 +24,7 @@ index 32d7620e..d000d376 100644
  			</apn>
  			<!-- http://www.tele2.se/alien-modem.html -->
  			<apn value="mobileinternet.tele2.se">
-@@ -12502,6 +12501,12 @@ conceived.
+@@ -12474,6 +12473,12 @@ conceived.
  				<usage type="internet"/>
  				<name>Mobilt Bredband</name>
  			</apn>
