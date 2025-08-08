@@ -1,0 +1,36 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Thu, 29 Oct 2015 23:13:45 +0300
+Subject: [PATCH] [mbpi] Updated settings for MegaFon Russia. MER#902
+
+---
+ serviceproviders.xml | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index eb9572b..a63dbbb 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -11363,8 +11363,7 @@ conceived.
+ 	</provider>
+ 	<provider>
+ 		<name>Megafon</name>
+-		<name xml:lang="ru">Мегафон</name>
+-
++		<name xml:lang="ru">МегаФон</name>
+ 		<gsm>
+ 			<network-id mcc="250" mnc="02"/>
+ 			<balance-check>
+@@ -11373,10 +11372,8 @@ conceived.
+ 			<apn value="internet">
+ 				<plan type="postpaid"/>
+ 				<usage type="internet"/>
+-				<name>RUS</name>
+-				<name xml:lang="ru">Россия</name>
+-				<username>gdata</username>
+-				<password>gdata</password>
++				<name>Megafon Internet</name>
++				<name xml:lang="ru">МегаФон Интернет</name>
+ 			</apn>
+ 			<apn value="mms">
+ 				<usage type="mms"/>

@@ -1,0 +1,45 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Fri, 20 Feb 2015 12:28:33 +0200
+Subject: [PATCH] [mbpi] Settings for Cricket Wireless (USA)
+
+---
+ serviceproviders.xml | 18 +++++++++++++++++-
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 09bc979..7550bd1 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -13104,7 +13104,6 @@ conceived.
+ 			<network-id mcc="310" mnc="030"/>
+ 			<network-id mcc="310" mnc="038"/>
+ 			<network-id mcc="310" mnc="090"/>
+-			<network-id mcc="310" mnc="150"/>
+ 			<network-id mcc="310" mnc="170"/>
+ 			<network-id mcc="310" mnc="410"/>
+ 			<network-id mcc="310" mnc="560"/>
+@@ -13164,6 +13163,23 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
++	<provider>
++		<name>Cricket Wireless</name>
++		<gsm>
++			<network-id mcc="310" mnc="150"/>
++			<!-- https://www.cricketwireless.com/support/apps-and-services/bring-your-own-device-byod/customer/bring-your-own-windows-device.html -->
++			<apn value="ndo">
++				<usage type="internet"/>
++				<name>Cricket Internet</name>
++			</apn>
++			<apn value="ndo">
++				<usage type="mms"/>
++				<name>Cricket MMS</name>
++				<mmsc>http://mmsc.aiowireless.net</mmsc>
++				<mmsproxy>192.168.196.78</mmsproxy>
++			</apn>
++		</gsm>
++	</provider>
+ 	<provider>
+ 		<name>T-Mobile</name>
+ 		<gsm>

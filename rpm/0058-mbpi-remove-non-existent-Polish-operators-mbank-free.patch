@@ -1,0 +1,99 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: atlochowski <hucul@o2.pl>
+Date: Mon, 7 Nov 2016 14:33:14 +0000
+Subject: [PATCH] [mbpi]remove non-existent Polish operators(mbank, freem,
+ samiswoi)
+
+---
+ serviceproviders.xml | 51 --------------------------------------------
+ 1 file changed, 51 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index b729662..042bc88 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -10221,28 +10221,12 @@ conceived.
+ 				<mmsc>http://mms.fmgmobile.pl:8002/</mmsc>
+ 				<mmsproxy>212.2.96.16:8080</mmsproxy>
+ 			</apn>
+-			<apn value="mms.mobile.pl">
+-				<usage type="mms"/>
+-				<name>mBank mobile MMS</name>
+-				<username>true</username>
+-				<password>true</password>
+-				<mmsc>http://mms.mobile.pl:8080</mmsc>
+-				<mmsproxy>212.2.96.16:8080</mmsproxy>
+-			</apn>
+ 			<apn value="mms.plusgsm.pl">
+ 				<usage type="mms"/>
+ 				<name>Plus MMS</name>
+ 				<mmsc>http://mms.plusgsm.pl:8002</mmsc>
+ 				<mmsproxy>212.2.96.16:8080</mmsproxy>
+ 			</apn>
+-			<apn value="mms.mobile.pl">
+-				<usage type="mms"/>
+-				<name>mBank mobile MMS</name>
+-				<username></username>
+-				<password></password>
+-				<mmsc>http://mms.mobile.pl:8002</mmsc>
+-				<mmsproxy>212.2.96.16:8080</mmsproxy>
+-			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider primary="true">
+@@ -10301,16 +10285,6 @@ conceived.
+ 			<password>orange</password>
+ 		</cdma>
+ 	</provider>
+-	<provider primary="false">
+-		<name>FreeM</name>
+-		<gsm>
+-			<network-id mcc="260" mnc="01"/>
+-			<apn value="freedata.pl">
+-				<plan type="prepaid"/>
+-				<usage type="internet"/>
+-			</apn>
+- 		</gsm>
+- 	</provider>
+  	<provider primary="false">
+  		<name>Heyah</name>
+  		<gsm>
+@@ -10349,19 +10323,6 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider primary="false">
+-		<name>mBank mobile</name>
+- 		<gsm>
+- 			<network-id mcc="260" mnc="01"/>
+-			<balance-check>
+-				<ussd>*100#</ussd>
+-			</balance-check>
+-			<apn value="www.mobile.pl">
+-				<plan type="postpaid"/>
+-				<usage type="internet"/>
+-			</apn>
+-		</gsm>
+-	</provider>
+ 	<provider primary="false">
+ 		<name>INEA</name>
+ 		<gsm>
+@@ -10373,18 +10334,6 @@ conceived.
+  			</apn>
+  		</gsm>
+  	</provider>
+-	<provider primary="false">
+-		<name>SamiSwoi</name>
+- 		<gsm>
+- 			<network-id mcc="260" mnc="01"/>
+-			<apn value="www.plusgsm.pl">
+-				<plan type="prepaid"/>
+-				<usage type="internet"/>
+-				<username>internet</username>
+-				<password>internet</password>
+-			</apn>
+- 		</gsm>
+- 	</provider>
+ 	<provider primary="false">
+ 		<name>Sferia</name>
+ 		<cdma>

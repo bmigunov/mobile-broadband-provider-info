@@ -1,0 +1,25 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Atlochowski <hucul@o2.pl>
+Date: Thu, 22 Sep 2022 20:53:53 +0200
+Subject: [PATCH] Update serviceproviders.xml
+
+remove cdma from Orange Poland
+---
+ serviceproviders.xml | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 55bb252..5b1d74a 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -10188,10 +10188,6 @@ conceived.
+ 				<mmsproxy>192.168.6.104:8080</mmsproxy>
+ 			</apn>
+ 		</gsm>
+-		<cdma>
+-			<username>cdma@orange</username>
+-			<password>orange</password>
+-		</cdma>
+ 	</provider>
+ 	<provider primary="true">
+ 		<name>Plus</name>

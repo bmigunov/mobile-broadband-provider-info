@@ -1,0 +1,21 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Thu, 23 Oct 2014 15:41:04 +0300
+Subject: [PATCH] [mbpi] Added the name for Telenor DK internet AP
+
+---
+ serviceproviders.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 90dfec7..3eaf534 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -3556,6 +3556,7 @@ conceived.
+ 			<apn value="internet">
+ 				<plan type="postpaid"/>
+ 				<usage type="internet"/>
++				<name>Telenor</name>
+ 				<dns>212.88.64.199</dns>
+ 				<dns>212.88.64.14</dns>
+ 			</apn>

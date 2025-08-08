@@ -1,0 +1,56 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Wed, 23 Apr 2014 14:37:34 +0300
+Subject: [PATCH] [mbpi] Updated settings for 3HK (Hong Kong)
+
+2D and 3G access points
+---
+ serviceproviders.xml | 17 ++++++++++++-----
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 3d62da9..a1bd904 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -5634,29 +5634,36 @@ conceived.
+ 		</gsm>
+ 	</provider>
+ 	<provider>
+-		<name>Orange</name>
++		<name>3 (2G)</name>
+ 		<gsm>
+ 			<network-id mcc="454" mnc="04"/>
+-			<apn value="web.orangehk.com">
++			<apn value="web-g.three.com.hk">
+ 				<plan type="postpaid"/>
+ 				<usage type="internet"/>
++				<name>3 (2G) GPRS</name>
+ 			</apn>
+ 			<apn value="mms-g.three.com.hk">
+ 				<usage type="mms"/>
+ 				<name>3 (2G) MMS</name>
+ 				<mmsc>http://10.30.15.51:10021/mmsc</mmsc>
+-				<mmsproxy>10.30.15.53:9201</mmsproxy>
++				<mmsproxy>10.30.15.53:8080</mmsproxy>
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider>
+-		<name>Three</name>
++		<name>3</name>
+ 		<gsm>
+ 			<network-id mcc="454" mnc="03"/>
+-			<network-id mcc="454" mnc="04"/>
+ 			<apn value="mobile.three.com.hk">
+ 				<plan type="postpaid"/>
+ 				<usage type="internet"/>
++				<name>3</name>
++			</apn>
++			<apn value="mobile.three.com.hk">
++				<usage type="mms"/>
++				<name>3 MMS</name>
++				<mmsc>http://mms.um.three.com.hk:10021/mmsc</mmsc>
++				<mmsproxy>172.20.97.116:8799</mmsproxy>
+ 			</apn>
+ 		</gsm>
+ 	</provider>

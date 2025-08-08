@@ -1,0 +1,33 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Tue, 13 Jun 2017 11:27:11 +0300
+Subject: [PATCH] [mbpi] Allow apn/authentication element in
+ serviceproviders.xml
+
+It's supported by ofono and we may need to actually start using it soon.
+---
+ serviceproviders.2.dtd | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/serviceproviders.2.dtd b/serviceproviders.2.dtd
+index b37e27e..49e9bb5 100644
+--- a/serviceproviders.2.dtd
++++ b/serviceproviders.2.dtd
+@@ -16,6 +16,7 @@
+                usage?,
+                name*,
+                gateway?,
++               authentication?,
+                username?,
+                password?,
+                dns*,
+@@ -112,6 +113,9 @@
+ <!ELEMENT name (#PCDATA)>
+ <!ATTLIST name xml:lang CDATA #IMPLIED>
+ 
++<!ELEMENT authentication EMPTY>
++<!ATTLIST authentication method (chap|pap|any) #REQUIRED>
++
+ <!-- MMS proxy in HOST:PORT format -->
+ <!ELEMENT mmsproxy (#PCDATA)>
+ 

@@ -1,0 +1,60 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Tommi Kenakkala <tommi.kenakkala@oss.tieto.com>
+Date: Mon, 16 Jun 2014 16:21:28 +0300
+Subject: [PATCH] [mbpi] Fix giffgaff uk mvno apn settings
+
+Details got from an end user.
+---
+ serviceproviders.xml | 35 ++++++++++-------------------------
+ 1 file changed, 10 insertions(+), 25 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 3ab44a2..1f6ae11 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -4848,35 +4848,20 @@ conceived.
+ 				<ussd>*100#</ussd>
+ 			</balance-check>
+ 			<apn value="giffgaff.com">
++				<plan type="postpaid"/>
+ 				<plan type="prepaid"/>
+ 				<usage type="internet"/>
+-				<name>Mobile Broadband</name>
+-				<username>giffgaff</username>
+-				<password>password</password>
+-			</apn>
+-			<apn value="payandgo.o2.co.uk">
+-				<usage type="mms"/>
+-				<name>O2 MMS Prepay</name>
+-				<username>payandgo</username>
+-				<password>password</password>
+-				<mmsc>http://mmsc.mms.o2.co.uk:8002</mmsc>
+-				<mmsproxy>193.113.200.195:8080</mmsproxy>
+-			</apn>
+-			<apn value="wap.o2.co.uk">
+-				<usage type="mms"/>
+-				<name>O2 MMS Postpay</name>
+-				<username>o2wap</username>
+-				<password>password</password>
+-				<mmsc>http://mmsc.mms.o2.co.uk:8002</mmsc>
+-				<mmsproxy>193.113.200.195:8080</mmsproxy>
++				<name>Giffgaff</name>
++				<username></username>
++				<password></password>
+ 			</apn>
+-			<apn value="idata.o2.co.uk">
++			<apn value="giffgaff.com">
+ 				<usage type="mms"/>
+-				<name>O2 UK MMS</name>
+-				<username>vertigo</username>
+-				<password>password</password>
+-				<mmsc>http://mmsc.mms.o2.co.uk:8002</mmsc>
+-				<mmsproxy>193.113.200.195:8080</mmsproxy>
++				<name>Giffgaff MMS</name>
++				<username>giffgaff</username>
++				<password></password>
++				<mmsc>http://mmsc.mediamessaging.co.uk:8002</mmsc>
++				<mmsproxy>82.132.254.1:8080</mmsproxy>
+ 			</apn>
+ 		</gsm>
+ 	</provider>

@@ -1,0 +1,111 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: atlochowski <hucul@o2.pl>
+Date: Thu, 15 Sep 2016 13:06:48 +0000
+Subject: [PATCH] [mbpi] Deleted Polish mobile operators which don't exist
+ anymore. MER#902
+
+Mobilking is no more.
+gadu-gadu is no more.
+mova PL is no more.
+GaduAIR is no more.
+Aster is no more.
+---
+ serviceproviders.xml | 57 --------------------------------------------
+ 1 file changed, 57 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 8d6005e..53ccdff 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -10082,14 +10082,6 @@ conceived.
+ 				<mmsc>http:/mms.heyah.pl/servlets/mms</mmsc>
+ 				<mmsproxy>213.158.194.57:8080</mmsproxy>
+ 			</apn>
+-			<apn value="mmsMOBILKING">
+-				<usage type="mms"/>
+-				<name>Mobilking MMS</name>
+-				<username>mobilking</username>
+-				<password>mobilking</password>
+-				<mmsc>http://mms.mobilking.pl/servlets/mms</mmsc>
+-				<mmsproxy>213.158.194.226:8080</mmsproxy>
+-			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider primary="true">
+@@ -10225,12 +10217,6 @@ conceived.
+ 				<mmsc>http://mms.fmgmobile.pl:8002/</mmsc>
+ 				<mmsproxy>212.2.96.16:8080</mmsproxy>
+ 			</apn>
+-			<apn value="mms.gadu-gadu.pl">
+-				<usage type="mms"/>
+-				<name>GaduAIR MMS</name>
+-				<mmsc>http://mms.gadu-gadu.pl:8002/</mmsc>
+-				<mmsproxy>212.2.96.16:8080</mmsproxy>
+-			</apn>
+ 			<apn value="mms.mobile.pl">
+ 				<usage type="mms"/>
+ 				<name>mBank mobile MMS</name>
+@@ -10239,12 +10225,6 @@ conceived.
+ 				<mmsc>http://mms.mobile.pl:8080</mmsc>
+ 				<mmsproxy>212.2.96.16:8080</mmsproxy>
+ 			</apn>
+-			<apn value="mms.mova.pl">
+-				<usage type="mms"/>
+-				<name>Carrefour Mova MMS</name>
+-				<mmsc>http://mms.mova.pl:8002/</mmsc>
+-				<mmsproxy>212.2.96.16:8080</mmsproxy>
+-			</apn>
+ 			<apn value="mms.plusgsm.pl">
+ 				<usage type="mms"/>
+ 				<name>Plus MMS</name>
+@@ -10345,31 +10325,6 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider primary="false">
+-		<name>GaduAIR</name>
+-		<gsm>
+-			<network-id mcc="260" mnc="01"/>
+-			<balance-check>
+-				<ussd>*101#</ussd>
+-			</balance-check>
+-			<apn value="internet.gadu-gadu.pl">
+-				<plan type="prepaid"/>
+-				<usage type="internet"/>
+-			</apn>
+-		</gsm>
+-	</provider>
+-	<provider primary="false">
+-		<name>Aster</name>
+- 		<gsm>
+- 			<network-id mcc="260" mnc="03"/>
+-			<apn value="aster.internet">
+-				<plan type="postpaid"/>
+-				<usage type="internet"/>
+- 				<username>internet</username>
+- 				<password>internet</password>
+- 			</apn>
+- 		</gsm>
+- 	</provider>
+  	<provider primary="false">
+ 		<name>Netia</name>
+ 		<gsm>
+@@ -10414,18 +10369,6 @@ conceived.
+  			</apn>
+  		</gsm>
+  	</provider>
+- 	<provider primary="false">
+-		<name>Mobilking</name>
+-		<gsm>
+-			<network-id mcc="260" mnc="02"/>
+-			<apn value="wapMOBILKING">
+-				<plan type="prepaid"/>
+-				<usage type="internet"/>
+-				<username>mobilking</username>
+-				<password>mobilking</password>
+-			</apn>
+-		</gsm>
+-	</provider>
+ 	<provider primary="false">
+ 		<name>SamiSwoi</name>
+  		<gsm>

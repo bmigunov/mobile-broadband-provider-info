@@ -1,0 +1,22 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Fri, 25 Apr 2014 15:11:47 +0300
+Subject: [PATCH] [mbpi] Replaced mms.free.fr with its IP address
+
+As recommended by the operator. That takes DNS out of the picture.
+---
+ serviceproviders.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 8c3425f..5d82b9e 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -4638,6 +4638,7 @@ conceived.
+ 				<usage type="mms"/>
+ 				<name>Free Mobile MMS</name>
+ 				<mmsc>http://mms.free.fr</mmsc>
++				<mmsproxy>212.27.40.225:80</mmsproxy>
+ 			</apn>
+ 		</gsm>
+ 	</provider>
