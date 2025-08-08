@@ -1,0 +1,28 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Fri, 25 Apr 2014 14:58:15 +0300
+Subject: [PATCH] Added MMS settings for Vodafone UK
+
+---
+ serviceproviders.xml | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index d000d376..e558ab8a 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -5392,6 +5392,14 @@ conceived.
+ 				<usage type="internet"/>
+ 				<name>TopUp and Go (older 1GB SIMs)</name>
+ 			</apn>
++			<apn value="wap.vodafone.co.uk">
++				<usage type="mms"/>
++				<name>Vodafone MMS</name>
++				<username>wap</username>
++				<password>wap</password>
++				<mmsc>http://mms.vodafone.co.uk/servlets/mms</mmsc>
++				<mmsproxy>212.183.137.12:8799</mmsproxy>
++			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider>

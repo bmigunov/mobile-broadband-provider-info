@@ -1,0 +1,69 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Atlochowski <hucul@o2.pl>
+Date: Mon, 9 Jan 2023 22:01:47 +0100
+Subject: [PATCH] Chess and Ludo mobil removed from Norge MVNO
+
+https://en.wikipedia.org/wiki/Chess_Communication
+https://no.wikipedia.org/wiki/Ludo_Mobil
+https://no.wikipedia.org/wiki/Chess_Communication
+---
+ serviceproviders.xml | 39 ---------------------------------------
+ 1 file changed, 39 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 7574b3af..7afa380e 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -10110,35 +10110,6 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
+-		<!-- MVNO operating on Telia's network -->
+-		<!-- https://www.chess.no/hjelp/spoersmaal-svar/hjelp-til-mms-og-internett -->
+-		<name>Chess</name>
+-		<gsm>
+-			<network-id mcc="242" mnc="02"/>
+-			<apn value="telia">
+-				<plan type="postpaid"/>
+-				<usage type="internet"/>
+-				<name>Chess Internet</name>
+-			</apn>
+-			<apn value="telia">
+-				<usage type="mms"/>
+-				<name>Chess MMS</name>
+-				<username>mms</username>
+-				<password>telia</password>
+-				<mmsc>http://mm/</mmsc>
+-				<mmsproxy>212.169.66.4:8080</mmsproxy>
+-			</apn>
+-			<apn value="mms.netcom.no">
+-				<usage type="mms"/>
+-				<name>Chess MMS</name>
+-				<username>chess</username>
+-				<password>chess</password>
+-				<mmsc>http://mms/</mmsc>
+-				<mmsproxy>212.169.66.4:8080</mmsproxy>
+-			</apn>
+-		</gsm>
+-	</provider>
+ 	<provider>
+ 		<!-- MVNO operating on Telia's network -->
+ 		<!-- https://onecall.no/kundeservice/oppsett-manuelt -->
+@@ -10275,16 +10246,6 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
+-		<name>Ludo Mobil</name>
+-		<gsm>
+-			<network-id mcc="242" mnc="07"/>
+-			<apn value="internet.ventelo.no">
+-				<plan type="postpaid"/>
+-				<usage type="internet"/>
+-			</apn>
+-		</gsm>
+-	</provider>
+ 	<provider>
+ 		<name>Tele2</name>
+ 		<gsm>

@@ -8,10 +8,10 @@ Subject: [PATCH] MMS settings for Drei (Austria)
  1 file changed, 26 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index f2f640fb..70269bdb 100644
+index 6913ab09..21ced0e5 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -635,32 +635,6 @@ conceived.
+@@ -653,32 +653,6 @@ conceived.
  				<mmsc>http://mmsc</mmsc>
  				<mmsproxy>213.94.78.133:8799</mmsproxy>
  			</apn>

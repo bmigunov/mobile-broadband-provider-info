@@ -8,10 +8,10 @@ Subject: [PATCH] MMS settings for EMT Estonia
  1 file changed, 1 insertion(+), 10 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index a4b02760..8bae457c 100644
+index 06118478..32d7620e 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3984,16 +3984,7 @@ conceived.
+@@ -4093,16 +4093,7 @@ conceived.
  				<usage type="mms"/>
  				<name>EMT MMS</name>
  				<mmsc>http://mms.emt.ee/servlets/mms</mmsc>

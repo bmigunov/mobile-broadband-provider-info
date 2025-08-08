@@ -8,10 +8,10 @@ Subject: [PATCH] Fixed DTD validation
  1 file changed, 8 insertions(+), 8 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 6f5d617b..17796a53 100644
+index 05c6d954..6a9b4d20 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -13639,6 +13639,14 @@ conceived.
+@@ -14079,6 +14079,14 @@ conceived.
  	</provider>
  	<provider>
  		<name>Sprint</name>
@@ -26,7 +26,7 @@ index 6f5d617b..17796a53 100644
  		<cdma>
  			<!-- Assignments taken from IFAST: http://www.ifast.org/files/NationalSID.htm -->
  			<sid value="4103"/>
-@@ -13691,14 +13699,6 @@ conceived.
+@@ -14131,14 +14139,6 @@ conceived.
  			<sid value="5116"/>
  			<sid value="5142"/>
  		</cdma>
