@@ -1,0 +1,22 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Atlochowski <hucul@o2.pl>
+Date: Wed, 28 Dec 2022 10:01:06 +0100
+Subject: [PATCH] Update serviceproviders.xml
+
+---
+ serviceproviders.xml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 9c05fc4e..ea2c68f6 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -4831,6 +4831,8 @@ conceived.
+ 			<apn value="everywhere">
+ 				<usage type="mms"/>
+ 				<name>MMS</name>
++				<username>eesecure</username>
++				<password>secure</password>
+ 				<mmsc>http://mms/</mmsc>
+ 				<mmsproxy>149.254.201.135:8080</mmsproxy>
+ 			</apn>

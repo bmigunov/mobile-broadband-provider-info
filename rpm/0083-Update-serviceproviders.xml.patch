@@ -1,48 +1,36 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Atlochowski <hucul@o2.pl>
-Date: Thu, 21 Oct 2021 12:21:29 +0200
+Date: Thu, 22 Sep 2022 17:43:50 +0200
 Subject: [PATCH] Update serviceproviders.xml
 
-[mbpi] Remove Polish mobile network Cyfrowy Polsat
+Update for french auchan telecom
 ---
- serviceproviders.xml | 20 --------------------
- 1 file changed, 20 deletions(-)
+ serviceproviders.xml | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 1c46aca..8efbecb 100644
+index 6ec0fe04..e8c5005b 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10239,22 +10239,6 @@ conceived.
- 			</apn>
- 		</gsm>
- 	</provider>
--	<provider primary="true">
--		<name>Cyfrowy Polsat</name>
--		<gsm>
--			<network-id mcc="260" mnc="12"/>
--			<apn value="internet.cyfrowypolsat.pl">
--				<plan type="postpaid"/>
--				<usage type="internet"/>
--			</apn>
--			<apn value="mms.cyfrowypolsat.pl">
--				<usage type="mms"/>
--				<name>Cyfrowy Polsat MMS</name>
--				<mmsc>http://mms.cyfrowypolsat.pl:8002/</mmsc>
--				<mmsproxy>79.171.2.33:8080</mmsproxy>
--			</apn>
--		</gsm>
--	</provider>
- 	<provider primary="true">
- 		<name>aero2</name>
+@@ -4444,11 +4444,19 @@ conceived.
+ <!-- France -->
+ <country code="fr">
+ 	<provider>
+-		<name>A Mobile (Auchan Telecom)</name>
++		<name>Auchan Telecom</name>
  		<gsm>
-@@ -10278,10 +10262,6 @@ conceived.
- 				<password>internet</password>
+-			<apn value="wap65">
++			<network-id mcc="208" mnc="299"/>
++			<apn value="fnetnrj">
+ 				<plan type="postpaid"/>
+ 				<usage type="internet"/>
++				<name>NRJWEB</name>
++			</apn>
++			<apn value="mmsnrj">
++				<usage type="mms"/>
++				<name>nrjmms</name>
++				<mmsc>http://mmsnrj</mmsc>
++				<mmsproxy>10.143.156.5:8080</mmsproxy>
  			</apn>
  		</gsm>
--		<cdma>
--			<username>cdma@orange</username>
--			<password>orange</password>
--		</cdma>
  	</provider>
-  	<provider>
-  		<name>Heyah</name>

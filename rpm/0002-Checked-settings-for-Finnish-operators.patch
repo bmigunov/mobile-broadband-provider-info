@@ -8,10 +8,10 @@ Subject: [PATCH] Checked settings for Finnish operators
  1 file changed, 21 insertions(+), 57 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 673113c..a7d0244 100644
+index 39c9e3bc..f76698ff 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4355,6 +4355,8 @@ conceived.
+@@ -4405,6 +4405,8 @@ conceived.
  		<name>Dna</name>
  		<gsm>
  			<network-id mcc="244" mnc="03"/>
@@ -20,7 +20,7 @@ index 673113c..a7d0244 100644
  			<!-- Phone number dependent:
  			 - Numbers beginning with 044 XXXXXXX turn in to 044 6 XXXXXXX
  			 - Numbers beginning with 041 XXXXXXX turn in to 041 6 XXXXXXX
-@@ -4376,43 +4378,7 @@ conceived.
+@@ -4426,43 +4428,7 @@ conceived.
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
@@ -65,7 +65,7 @@ index 673113c..a7d0244 100644
  				<username>dna</username>
  				<password>mms</password>
  				<mmsc>http://mmsc.dnafinland.fi</mmsc>
-@@ -4420,24 +4386,6 @@ conceived.
+@@ -4470,24 +4436,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -90,7 +90,7 @@ index 673113c..a7d0244 100644
  	<provider>
  		<name>Elisa</name>
  		<gsm>
-@@ -4553,11 +4501,11 @@ conceived.
+@@ -4603,11 +4551,11 @@ conceived.
  				<dns>192.89.123.230</dns>
  				<dns>192.89.123.231</dns>
  			</apn>
@@ -104,7 +104,7 @@ index 673113c..a7d0244 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -4571,6 +4519,22 @@ conceived.
+@@ -4621,6 +4569,22 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
