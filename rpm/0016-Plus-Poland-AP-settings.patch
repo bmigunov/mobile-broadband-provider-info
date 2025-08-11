@@ -8,10 +8,10 @@ Subject: [PATCH] Plus (Poland) AP settings
  1 file changed, 10 insertions(+), 6 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index acf691e4..5be148c6 100644
+index 4f388c2b..1d1cc44f 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11134,6 +11134,10 @@ conceived.
+@@ -11195,6 +11195,10 @@ conceived.
  			<balance-top-up>
  				<ussd replacement="CODE">*123*CODE#</ussd>
  			</balance-top-up>
@@ -22,7 +22,7 @@ index acf691e4..5be148c6 100644
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<plan type="prepaid"/>
-@@ -11166,6 +11170,12 @@ conceived.
+@@ -11227,6 +11231,12 @@ conceived.
  				<name>iPlus optimizer with data compression</name>
  				<name xml:lang="pl">iPlus optimizer z kompresją danych</name>
  			</apn>
@@ -35,7 +35,7 @@ index acf691e4..5be148c6 100644
  			<apn value="mms.fmgmobile.pl">
  				<usage type="mms"/>
  				<name>FM Group Mobile MMS</name>
-@@ -11198,12 +11208,6 @@ conceived.
+@@ -11259,12 +11269,6 @@ conceived.
  				<mmsc>http://mms.plusgsm.pl:8002</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>

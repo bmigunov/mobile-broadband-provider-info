@@ -8,10 +8,10 @@ Subject: [PATCH] Added Mobile Vikings MVNO
  1 file changed, 19 insertions(+), 4 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e2eadbea..ac2d4cd0 100644
+index 0d7b7873..e6487fd6 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11236,10 +11236,6 @@ conceived.
+@@ -11292,10 +11292,6 @@ conceived.
  		<name>Virgin Mobile</name>
  		<gsm>
  			<network-id mcc="260" mnc="02"/>
@@ -22,7 +22,7 @@ index e2eadbea..ac2d4cd0 100644
  			<balance-top-up>
  				<ussd replacement="CODE">*100*CODE#</ussd>
  			</balance-top-up>
-@@ -11257,6 +11253,25 @@ conceived.
+@@ -11313,6 +11309,25 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

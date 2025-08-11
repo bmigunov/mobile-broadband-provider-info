@@ -8,10 +8,10 @@ Subject: [PATCH] Use PAP authentication for Beeline MMS (Russia). JB#38972
  1 file changed, 1 insertion(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 05ef2245..a8c7eceb 100644
+index 8823bde6..6bd40010 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11873,6 +11873,7 @@ conceived.
+@@ -11929,6 +11929,7 @@ conceived.
  				<name>Beeline MMS</name>
  				<username>beeline</username>
  				<password>beeline</password>

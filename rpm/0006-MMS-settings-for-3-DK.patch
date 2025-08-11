@@ -8,10 +8,10 @@ Subject: [PATCH] MMS settings for 3 DK
  1 file changed, 6 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 71f518ef..f68c56a4 100644
+index 9f8c4685..60ec0778 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3696,6 +3696,12 @@ conceived.
+@@ -3728,6 +3728,12 @@ conceived.
  				<usage type="internet"/>
  				<name>3 (statisk IP)</name>
  			</apn>

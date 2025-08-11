@@ -1,17 +1,17 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Atlochowski <hucul@o2.pl>
 Date: Thu, 21 Oct 2021 12:21:29 +0200
-Subject: [PATCH] [mbpi] Remove Polish mobile network Cyfrowy Polsat
+Subject: [PATCH] Remove Polish mobile network Cyfrowy Polsat
 
 ---
  serviceproviders.xml | 20 --------------------
  1 file changed, 20 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index bc7a6d94..d7227670 100644
+index c3c72855..d0d7c436 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11050,22 +11050,6 @@ conceived.
+@@ -11106,22 +11106,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -34,7 +34,7 @@ index bc7a6d94..d7227670 100644
  	<provider primary="true">
  		<name>aero2</name>
  		<gsm>
-@@ -11089,10 +11073,6 @@ conceived.
+@@ -11145,10 +11129,6 @@ conceived.
  				<password>internet</password>
  			</apn>
  		</gsm>

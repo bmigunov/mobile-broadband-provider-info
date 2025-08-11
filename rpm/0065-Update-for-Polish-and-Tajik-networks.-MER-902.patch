@@ -17,10 +17,10 @@ Tajik mobile operators added to the list
  1 file changed, 91 insertions(+), 36 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index c6c93286..57d27977 100644
+index 133794ec..63711e71 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10928,7 +10928,6 @@ conceived.
+@@ -10984,7 +10984,6 @@ conceived.
  				<usage type="mms"/>
  				<name>Play MMS</name>
  				<mmsc>http://10.10.28.164/mms/wapenc</mmsc>
@@ -28,7 +28,7 @@ index c6c93286..57d27977 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -10989,14 +10988,6 @@ conceived.
+@@ -11045,14 +11044,6 @@ conceived.
  				<mmsc>http://mms.orange.pl</mmsc>
  				<mmsproxy>192.168.6.104:8080</mmsproxy>
  			</apn>
@@ -43,7 +43,7 @@ index c6c93286..57d27977 100644
  		</gsm>
  	</provider>
  	<provider primary="true">
-@@ -11039,13 +11030,6 @@ conceived.
+@@ -11095,13 +11086,6 @@ conceived.
  				<username>plusgsm</username>
  				<password>plusgsm</password>
  			</apn>
@@ -57,7 +57,7 @@ index c6c93286..57d27977 100644
  			<apn value="mms">
  				<usage type="mms"/>
  				<name>Plus MMS</name>
-@@ -11058,19 +11042,13 @@ conceived.
+@@ -11114,19 +11098,13 @@ conceived.
  				<mmsc>http://mms.fmgmobile.pl:8002/</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>
@@ -78,7 +78,7 @@ index c6c93286..57d27977 100644
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>
-@@ -11104,18 +11082,6 @@ conceived.
+@@ -11160,18 +11138,6 @@ conceived.
  				<username>internet</username>
  				<password>internet</password>
  			</apn>
@@ -97,7 +97,7 @@ index c6c93286..57d27977 100644
  		</gsm>
  		<cdma>
  			<username>cdma@orange</username>
-@@ -11188,6 +11154,12 @@ conceived.
+@@ -11244,6 +11210,12 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>
@@ -110,7 +110,7 @@ index c6c93286..57d27977 100644
  		</gsm>
  	</provider>
  	<provider>
-@@ -11198,13 +11170,18 @@ conceived.
+@@ -11254,13 +11226,18 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>
@@ -130,7 +130,7 @@ index c6c93286..57d27977 100644
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>internet</username>
-@@ -13031,6 +13008,84 @@ conceived.
+@@ -13087,6 +13064,84 @@ conceived.
  	</provider>
  </country>
  

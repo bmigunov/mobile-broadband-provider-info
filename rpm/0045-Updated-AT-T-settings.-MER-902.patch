@@ -8,13 +8,13 @@ Subject: [PATCH] Updated AT&T settings. MER#902
  1 file changed, 7 insertions(+), 49 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index f15c5d42..040bb9d0 100644
+index eb32dca2..3fdf975f 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -13696,58 +13696,16 @@ conceived.
- 			<network-id mcc="310" mnc="410"/>
- 			<network-id mcc="310" mnc="560"/>
- 			<network-id mcc="310" mnc="680"/>
+@@ -13757,58 +13757,16 @@ conceived.
+ 				<standard type="proprietary"/>
+ 				<destination-number>94183567</destination-number>
+ 			</visual-voicemail>
 -			<!-- http://www.wireless.att.com/answer-center/main.jsp?solutionId=35078&t=solutionTab -->
 -			<apn value="wap.cingular">
 -				<plan type="postpaid"/>

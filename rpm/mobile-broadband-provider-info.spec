@@ -1,6 +1,6 @@
 Name:       mobile-broadband-provider-info
 Summary:    Mobile Broadband Dataprovider Database
-Version:    20200125
+Version:    20210805
 Release:    1
 License:    Public Domain
 BuildArch:  noarch
@@ -79,8 +79,8 @@ Patch0065: 0065-Update-for-Polish-and-Tajik-networks.-MER-902.patch
 Patch0066: 0066-Update-of-Kazakh-and-Kyrgyz-operators.-MER-902.patch
 Patch0067: 0067-APN-settings-for-Letai-Russia-.-Fixes-JB-51615.patch
 Patch0068: 0068-Add-APN-settings-for-ROSTELECOM-Russia-.-Fixes-JB-53.patch
-Patch0069: 0069-mbpi-Update-Polish-network-Play.patch
-Patch0070: 0070-mbpi-Remove-Polish-mobile-network-Cyfrowy-Polsat.patch
+Patch0069: 0069-Update-Polish-network-Play.patch
+Patch0070: 0070-Remove-Polish-mobile-network-Cyfrowy-Polsat.patch
 Patch0071: 0071-Fello-added-in-Swedish-providers-section.patch
 Patch0072: 0072-Otvarta-and-UPS-Polska-added-to-Polish-providers-sec.patch
 Patch0073: 0073-Update-for-french-auchan-telecom.patch
@@ -93,12 +93,11 @@ Patch0079: 0079-Montenegro-providers-update.patch
 Patch0080: 0080-Iran-and-Iraq-providers-update.patch
 Patch0081: 0081-Update-Afgan-provider-and-remove-one-from-Australia.patch
 Patch0082: 0082-United-Arab-Emirates-providers-update.patch
-Patch0083: 0083-Update-T-Mobile-Telekom.patch
-Patch0084: 0084-Change-t-mobile-UK-to-EE-and-update-to-current-EE-cr.patch
-Patch0085: 0085-Chess-and-Ludo-mobil-removed-from-Norge-MVNO.patch
-Patch0086: 0086-Fix-Orange-Belgium-network-APN.patch
-Patch0087: 0087-Adding-Voicemail-number-on-the-Belgium-Orange-Networ.patch
-Patch0088: 0088-Fix-Mobile-Vikings-MNC-code-was-not-correct-so-link-.patch
+Patch0083: 0083-Change-t-mobile-UK-to-EE-and-update-to-current-EE-cr.patch
+Patch0084: 0084-Chess-and-Ludo-mobil-removed-from-Norge-MVNO.patch
+Patch0085: 0085-Fix-Orange-Belgium-network-APN.patch
+Patch0086: 0086-Adding-Voicemail-number-on-the-Belgium-Orange-Networ.patch
+Patch0087: 0087-Fix-Mobile-Vikings-MNC-code-was-not-correct-so-link-.patch
 
 %description
 This package contains mobile broadband settings for different service providers

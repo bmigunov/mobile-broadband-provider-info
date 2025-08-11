@@ -1,17 +1,17 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Atlochowski <hucul@o2.pl>
 Date: Wed, 29 Sep 2021 23:55:26 +0200
-Subject: [PATCH] [mbpi] Update Polish network Play
+Subject: [PATCH] Update Polish network Play
 
 ---
  serviceproviders.xml | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 62586ce6..bc7a6d94 100644
+index d44d98ac..c3c72855 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10932,7 +10932,8 @@ conceived.
+@@ -10988,7 +10988,8 @@ conceived.
  			<apn value="mms">
  				<usage type="mms"/>
  				<name>Play MMS</name>

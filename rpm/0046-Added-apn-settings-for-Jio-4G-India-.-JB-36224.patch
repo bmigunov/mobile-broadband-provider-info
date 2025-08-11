@@ -8,10 +8,10 @@ Subject: [PATCH] Added apn settings for Jio 4G (India). JB#36224
  1 file changed, 31 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 040bb9d0..36ca00c5 100644
+index 3fdf975f..48f85474 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6653,6 +6653,37 @@ conceived.
+@@ -6688,6 +6688,37 @@ conceived.
  
  <!-- India -->
  <country code="in">

@@ -8,10 +8,10 @@ Subject: [PATCH] Iran and Iraq providers update
  1 file changed, 34 insertions(+), 23 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index aec041dd..adf04fec 100644
+index 74486137..cde5dc3b 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -7324,27 +7324,6 @@ conceived.
+@@ -7359,27 +7359,6 @@ conceived.
  
  <!-- Iraq -->
  <country code="iq">
@@ -39,7 +39,7 @@ index aec041dd..adf04fec 100644
  	<provider>
  		<name>Korek</name>
  		<gsm>
-@@ -7373,28 +7352,60 @@ conceived.
+@@ -7408,28 +7387,60 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

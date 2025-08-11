@@ -8,10 +8,10 @@ Subject: [PATCH] Moved working Telstra AU settings to the top of the list
  1 file changed, 13 insertions(+), 13 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index cff03090..2af5be52 100644
+index 496e0cea..c7be0a06 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -958,6 +958,13 @@ conceived.
+@@ -971,6 +971,13 @@ conceived.
  				<dtmf>1258888</dtmf>
  				<ussd-response>*100#</ussd-response>
  			</balance-check>
@@ -25,7 +25,7 @@ index cff03090..2af5be52 100644
  			<apn value="telstra.wap">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
-@@ -972,13 +979,6 @@ conceived.
+@@ -985,13 +992,6 @@ conceived.
  				<dns>139.130.4.4</dns>
  				<dns>203.50.2.71</dns>
  			</apn>
@@ -39,7 +39,7 @@ index cff03090..2af5be52 100644
  			<apn value="telstra.pcpack">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
-@@ -992,6 +992,12 @@ conceived.
+@@ -1005,6 +1005,12 @@ conceived.
  				<usage type="wap"/>
  				<name>Telstra Internet/Wap</name>
  			</apn>
@@ -52,7 +52,7 @@ index cff03090..2af5be52 100644
  			<apn value="telstra.mms">
  				<plan type="postpaid"/>
  				<usage type="mms"/>
-@@ -1003,12 +1009,6 @@ conceived.
+@@ -1016,12 +1022,6 @@ conceived.
  				<name>Telstra BigPond</name>
  				<!-- username/password per-user -->
  			</apn>

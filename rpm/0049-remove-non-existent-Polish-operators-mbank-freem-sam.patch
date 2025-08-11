@@ -8,10 +8,10 @@ Subject: [PATCH] remove non-existent Polish operators(mbank, freem, samiswoi)
  1 file changed, 16 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 798aade1..324d80f0 100644
+index a1079851..b18634b1 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10996,28 +10996,12 @@ conceived.
+@@ -11052,28 +11052,12 @@ conceived.
  				<mmsc>http://mms.fmgmobile.pl:8002/</mmsc>
  				<mmsproxy>212.2.96.16:8080</mmsproxy>
  			</apn>

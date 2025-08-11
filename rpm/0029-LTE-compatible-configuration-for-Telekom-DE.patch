@@ -4,28 +4,16 @@ Date: Sat, 28 Mar 2015 12:34:06 +0200
 Subject: [PATCH] LTE compatible configuration for Telekom DE
 
 ---
- serviceproviders.xml | 13 +++++++++++++
- 1 file changed, 13 insertions(+)
+ serviceproviders.xml | 8 ++++++++
+ 1 file changed, 8 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 2af5be52..6d33d915 100644
+index c7be0a06..58c0c4c5 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3477,6 +3477,11 @@ conceived.
- 			<balance-top-up>
- 				<ussd replacement="CODE">*101*CODE#</ussd>
- 			</balance-top-up>
-+			<apn value="internet.telekom">
-+				<usage type="internet"/>
-+				<username>tm</username>
-+				<password>tm</password>
-+			</apn>
- 			<apn value="internet.t-d1.de">
- 				<plan type="postpaid"/>
+@@ -3524,6 +3524,14 @@ conceived.
  				<usage type="internet"/>
-@@ -3492,6 +3497,14 @@ conceived.
- 				<dns>10.74.83.22</dns>
- 				<dns>193.254.160.1</dns>
+ 				<name>Business Smart Connect</name>
  			</apn>
 +			<apn value="internet.telekom">
 +				<usage type="mms"/>

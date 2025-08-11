@@ -8,10 +8,10 @@ Subject: [PATCH] update for georgian providers
  1 file changed, 41 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 1d413ec6..508e4001 100644
+index a7522fa7..aee02d18 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5433,10 +5433,50 @@ conceived.
+@@ -5468,10 +5468,50 @@ conceived.
  		<name>Geocell</name>
  		<gsm>
  			<network-id mcc="282" mnc="01"/>

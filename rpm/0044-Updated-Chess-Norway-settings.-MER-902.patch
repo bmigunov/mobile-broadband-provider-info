@@ -8,10 +8,10 @@ Subject: [PATCH] Updated Chess Norway settings. MER#902
  1 file changed, 12 insertions(+), 4 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index b1b6717c..f15c5d42 100644
+index 80a6ecde..eb32dca2 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10051,15 +10051,23 @@ conceived.
+@@ -10107,15 +10107,23 @@ conceived.
  		</gsm>
  	</provider>
  	<provider>

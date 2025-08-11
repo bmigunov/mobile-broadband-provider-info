@@ -9,7 +9,7 @@ It's not being used by ofono and is hopelessly out of date.
  1 file changed, 448 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index d6d884e9..f2e81f06 100644
+index 6ac2b3d8..01c7ed65 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -71,8 +71,6 @@ conceived.
@@ -84,7 +84,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -714,8 +698,6 @@ conceived.
+@@ -727,8 +711,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Crazy NET</name>
@@ -93,7 +93,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="purtona.wap">
  				<plan type="postpaid"/>
-@@ -859,36 +841,26 @@ conceived.
+@@ -872,36 +854,26 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Mobile Internet (handsets)</name>
@@ -130,7 +130,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -962,30 +934,22 @@ conceived.
+@@ -975,30 +947,22 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Telstra Internet</name>
@@ -161,7 +161,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="telstra.iph">
  				<plan type="postpaid"/>
-@@ -1020,8 +984,6 @@ conceived.
+@@ -1033,8 +997,6 @@ conceived.
  				<usage type="internet"/>
  				<username>a</username>
  				<password>a</password>
@@ -170,7 +170,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="3services">
  				<plan type="prepaid"/>
-@@ -1029,8 +991,6 @@ conceived.
+@@ -1042,8 +1004,6 @@ conceived.
  				<name>Three Prepaid</name>
  				<username>a</username>
  				<password>a</password>
@@ -179,7 +179,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -1044,7 +1004,6 @@ conceived.
+@@ -1057,7 +1017,6 @@ conceived.
  				<name>Mobile Internet</name>
  				<username>guest</username>
  				<password>guest</password>
@@ -187,7 +187,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="VirginBroadband">
  				<plan type="postpaid"/>
-@@ -1071,8 +1030,6 @@ conceived.
+@@ -1084,8 +1043,6 @@ conceived.
  				<name>Prepaid</name>
  				<!-- username>web</username -->
  				<!-- password>web</password -->
@@ -196,7 +196,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="live.vodafone.com">
  				<plan type="postpaid"/>
-@@ -1168,36 +1125,26 @@ conceived.
+@@ -1181,36 +1138,26 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Package 1</name>
@@ -233,7 +233,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mobismms">
  				<usage type="mms"/>
-@@ -1271,7 +1218,6 @@ conceived.
+@@ -1284,7 +1231,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Internet</name>
@@ -241,7 +241,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet">
  				<plan type="prepaid"/>
-@@ -1304,7 +1250,6 @@ conceived.
+@@ -1317,7 +1263,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Web</name>
@@ -249,7 +249,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="blweb">
  				<plan type="prepaid"/>
-@@ -1338,16 +1283,12 @@ conceived.
+@@ -1351,16 +1296,12 @@ conceived.
  				<usage type="internet"/>
  				<username>gp</username>
  				<password>gp</password>
@@ -266,7 +266,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="gpmms">
  				<usage type="mms"/>
-@@ -1374,7 +1315,6 @@ conceived.
+@@ -1387,7 +1328,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Internet</name>
@@ -274,7 +274,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet">
  				<plan type="prepaid"/>
-@@ -1422,8 +1362,6 @@ conceived.
+@@ -1435,8 +1375,6 @@ conceived.
  		<cdma>
  			<username>waps</username>
  			<password>waps</password>
@@ -283,7 +283,7 @@ index d6d884e9..f2e81f06 100644
  			<sid value="13480"/>
  		</cdma>
  	</provider>
-@@ -1463,8 +1401,6 @@ conceived.
+@@ -1476,8 +1414,6 @@ conceived.
  				<name>Business</name>
  				<username>mobistar</username>
  				<password>mobistar</password>
@@ -292,7 +292,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet.be">
  				<plan type="postpaid"/>
-@@ -1472,8 +1408,6 @@ conceived.
+@@ -1485,8 +1421,6 @@ conceived.
  				<name>Personal</name>
  				<username>mobistar</username>
  				<password>mobistar</password>
@@ -301,7 +301,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="iew.be">
  				<plan type="postpaid"/>
-@@ -1481,16 +1415,12 @@ conceived.
+@@ -1494,16 +1428,12 @@ conceived.
  				<name>Internet Everywhere</name>
  				<username>mobistar</username>
  				<password>mobistar</password>
@@ -318,7 +318,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.be">
  				<usage type="mms"/>
-@@ -1543,15 +1473,11 @@ conceived.
+@@ -1556,15 +1486,11 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Inter</name>
@@ -334,7 +334,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="event.proximus.be">
  				<usage type="mms"/>
-@@ -1574,8 +1500,6 @@ conceived.
+@@ -1587,8 +1513,6 @@ conceived.
  				<usage type="internet"/>
  				<username>base</username>
  				<password>base</password>
@@ -343,7 +343,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.base.be">
  				<usage type="mms"/>
-@@ -1638,7 +1562,6 @@ conceived.
+@@ -1651,7 +1575,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>globul</username>
@@ -351,7 +351,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.globul.bg">
  				<usage type="mms"/>
-@@ -1661,8 +1584,6 @@ conceived.
+@@ -1674,8 +1597,6 @@ conceived.
  			<apn value="inet-gprs.mtel.bg">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -360,7 +360,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms-gprs.mtel.bg">
  				<usage type="mms"/>
-@@ -1696,7 +1617,6 @@ conceived.
+@@ -1709,7 +1630,6 @@ conceived.
  				<name>Vivatel (old)</name>
  				<username>vivatel</username>
  				<password>vivatel</password>
@@ -368,7 +368,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vivacom.bg">
  				<usage type="mms"/>
-@@ -1930,8 +1850,6 @@ conceived.
+@@ -1943,8 +1863,6 @@ conceived.
  				<usage type="internet"/>
  				<username>tim</username>
  				<password>tim</password>
@@ -377,7 +377,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.tim.br">
  				<usage type="mms"/>
-@@ -1951,7 +1869,6 @@ conceived.
+@@ -1964,7 +1882,6 @@ conceived.
  				<usage type="internet"/>
  				<username>iesgprs</username>
  				<password>iesgprs2002</password>
@@ -385,7 +385,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -2260,8 +2177,6 @@ conceived.
+@@ -2273,8 +2190,6 @@ conceived.
  				<usage type="internet"/>
  				<username>fido</username>
  				<password>fido</password>
@@ -394,7 +394,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.fido.ca">
  				<usage type="mms"/>
-@@ -2280,8 +2195,6 @@ conceived.
+@@ -2293,8 +2208,6 @@ conceived.
  				<usage type="internet"/>
  				<username>wapuser1</username>
  				<password>wap</password>
@@ -403,7 +403,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="rogers-core-appl1.apn">
  				<usage type="mms"/>
-@@ -2492,7 +2405,6 @@ conceived.
+@@ -2505,7 +2418,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>vodalive</username>
@@ -411,7 +411,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="vodalive">
  				<usage type="mms"/>
-@@ -2571,8 +2483,6 @@ conceived.
+@@ -2584,8 +2496,6 @@ conceived.
  				<usage type="internet"/>
  				<username>internet</username>
  				<password>internet</password>
@@ -420,7 +420,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="wap.sunrise.ch">
  				<username>wap</username>
-@@ -2608,8 +2518,6 @@ conceived.
+@@ -2621,8 +2531,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Swisscom GPRS</name>
@@ -429,7 +429,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="corporate.swisscom.ch">
  				<plan type="postpaid"/>
-@@ -2656,7 +2564,6 @@ conceived.
+@@ -2669,7 +2577,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -437,7 +437,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.mtn.ci">
  				<usage type="mms"/>
-@@ -2854,7 +2761,6 @@ conceived.
+@@ -2867,7 +2774,6 @@ conceived.
  				<name>Internet</name>
  				<username>guest</username>
  				<password>guest</password>
@@ -445,7 +445,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="cmwap">
  				<usage type="mms"/>
-@@ -2935,7 +2841,6 @@ conceived.
+@@ -2948,7 +2854,6 @@ conceived.
  				<usage type="internet"/>
  				<username>guest</username>
  				<password>guest</password>
@@ -453,7 +453,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -3153,8 +3058,6 @@ conceived.
+@@ -3166,8 +3071,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -462,7 +462,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -3179,14 +3082,10 @@ conceived.
+@@ -3192,14 +3095,10 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -477,7 +477,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet">
  				<plan type="prepaid"/>
-@@ -3214,8 +3113,6 @@ conceived.
+@@ -3227,8 +3126,6 @@ conceived.
  			<apn value="internet.t-mobile.cz">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -486,7 +486,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.t-mobile.cz">
  				<usage type="mms"/>
-@@ -3272,8 +3169,6 @@ conceived.
+@@ -3285,8 +3182,6 @@ conceived.
  				<name>Volume rate/30 Day Flatrate</name>
  				<username>eplus</username>
  				<password>gprs</password>
@@ -495,7 +495,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.eplus.de">
  				<usage type="mms"/>
-@@ -3336,8 +3231,6 @@ conceived.
+@@ -3349,8 +3244,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Contract</name>
@@ -504,7 +504,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<!-- http://www.prepaid-wiki.de/index.php5/BILDmobil_Daten-SIM -->
  			<apn value="event.vodafone.de">
-@@ -3377,8 +3270,6 @@ conceived.
+@@ -3390,8 +3283,6 @@ conceived.
  				<usage type="internet"/>
  				<username>eplus</username>
  				<password>gprs</password>
@@ -513,7 +513,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -3419,22 +3310,16 @@ conceived.
+@@ -3432,22 +3323,16 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>LOOP</name>
@@ -536,24 +536,25 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet">
  				<usage type="mms"/>
-@@ -3486,16 +3371,12 @@ conceived.
+@@ -3495,8 +3380,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<password>t-d1</password>
 -				<dns>193.254.160.1</dns>
 -				<dns>193.254.160.130</dns>
  			</apn>
+ 			<!-- dual stack or ipv4-only APN, type ipv4v6 or ipv4 -->
  			<apn value="internet.t-mobile">
- 				<plan type="postpaid"/>
+@@ -3504,8 +3387,6 @@ conceived.
  				<usage type="internet"/>
  				<username>t-mobile</username>
  				<password>tm</password>
 -				<dns>10.74.83.22</dns>
 -				<dns>193.254.160.1</dns>
  			</apn>
- 			<apn value="internet.telekom">
- 				<usage type="mms"/>
-@@ -3531,8 +3412,6 @@ conceived.
+ 			<!-- https://telekomhilft.telekom.de/t5/Blog/Neuer-IPv6-Zugang-zum-mobilen-Internet-im-Netz-der-Telekom/ba-p/4254741 -->
+ 			<!-- IPv6-only APN, type ipv6 or ipv4v6  -->
+@@ -3558,8 +3439,6 @@ conceived.
  				<name>Prepaid Contracts</name>
  				<username>t-mobile</username>
  				<password>tm</password>
@@ -562,7 +563,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -3555,8 +3434,6 @@ conceived.
+@@ -3582,8 +3461,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Vodafone Internet</name>
@@ -571,7 +572,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="event.vodafone.de">
  				<plan type="postpaid"/>
-@@ -3564,14 +3441,10 @@ conceived.
+@@ -3591,14 +3468,10 @@ conceived.
  				<name>WebSessions</name>
  				<username>vodafone</username>
  				<password>vodafone</password>
@@ -586,7 +587,7 @@ index d6d884e9..f2e81f06 100644
  				<mmsc>http://139.7.24.1/servlets/mms</mmsc>
  				<mmsproxy>139.7.29.17:80</mmsproxy>
  			</apn>
-@@ -3614,8 +3487,6 @@ conceived.
+@@ -3641,8 +3514,6 @@ conceived.
  				<usage type="internet"/>
  				<username>simyo</username>
  				<password>simyo</password>
@@ -595,7 +596,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -3627,8 +3498,6 @@ conceived.
+@@ -3654,8 +3525,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Option Mobile</name>
@@ -604,7 +605,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -3785,8 +3654,6 @@ conceived.
+@@ -3812,8 +3681,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Telenor</name>
@@ -613,7 +614,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="telenor">
  				<usage type="mms"/>
-@@ -3824,8 +3691,6 @@ conceived.
+@@ -3851,8 +3718,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -622,7 +623,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<!-- mnc="0171" in Vodafone XML -->
  			<apn value="internet.no">
-@@ -3897,8 +3762,6 @@ conceived.
+@@ -3924,8 +3789,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -631,7 +632,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -3975,8 +3838,6 @@ conceived.
+@@ -4002,8 +3865,6 @@ conceived.
  			<apn value="internet.ideasclaro.com.do">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -640,7 +641,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -4110,8 +3971,6 @@ conceived.
+@@ -4137,8 +3998,6 @@ conceived.
  			<apn value="internet.emt.ee">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -649,7 +650,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.emt.ee">
  				<usage type="mms"/>
-@@ -4128,7 +3987,6 @@ conceived.
+@@ -4155,7 +4014,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -657,7 +658,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -4169,8 +4027,6 @@ conceived.
+@@ -4196,8 +4054,6 @@ conceived.
  				<usage type="internet"/>
  				<username>internet</username>
  				<password>internet</password>
@@ -666,7 +667,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vodafone.com.eg">
  				<usage type="mms"/>
-@@ -4205,8 +4061,6 @@ conceived.
+@@ -4232,8 +4088,6 @@ conceived.
  			<apn value="mobinilweb">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -675,7 +676,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mobinilmms">
  				<usage type="mms"/>
-@@ -4306,8 +4160,6 @@ conceived.
+@@ -4333,8 +4187,6 @@ conceived.
  			<apn value="INTERNETTPH">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -684,7 +685,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -4318,8 +4170,6 @@ conceived.
+@@ -4345,8 +4197,6 @@ conceived.
  			<apn value="internet.ono.com">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -693,7 +694,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -4372,8 +4222,6 @@ conceived.
+@@ -4399,8 +4249,6 @@ conceived.
  				<name>Orange</name>
  				<username>ORANGE</username>
  				<password>ORANGE</password>
@@ -702,7 +703,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -4384,8 +4232,6 @@ conceived.
+@@ -4411,8 +4259,6 @@ conceived.
  			<apn value="gprs-service.com">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -711,7 +712,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="gprs-service.com">
  				<usage type="mms"/>
-@@ -4426,8 +4272,6 @@ conceived.
+@@ -4453,8 +4299,6 @@ conceived.
  				<name>Telefónica</name>
  				<username>telefonica</username>
  				<password>telefonica</password>
@@ -720,7 +721,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="movistar.es">
  				<plan type="postpaid"/>
-@@ -4460,8 +4304,6 @@ conceived.
+@@ -4487,8 +4331,6 @@ conceived.
  				<name>Vodafone</name>
  				<username>vodafone</username>
  				<password>vodafone</password>
@@ -729,7 +730,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="airtelnet.es">
  				<plan type="postpaid"/>
-@@ -4469,8 +4311,6 @@ conceived.
+@@ -4496,8 +4338,6 @@ conceived.
  				<name>Airtel (old)</name>
  				<username>vodafone</username>
  				<password>vodafone</password>
@@ -738,7 +739,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vodafone.net">
  				<usage type="mms"/>
-@@ -4495,8 +4335,6 @@ conceived.
+@@ -4522,8 +4362,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -747,7 +748,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -4513,8 +4351,6 @@ conceived.
+@@ -4540,8 +4378,6 @@ conceived.
  			<apn value="jazzinternet">
  				<plan type="prepaid"/>
  				<usage type="internet"/>
@@ -756,7 +757,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="jazzmms">
  				<usage type="mms"/>
-@@ -4610,8 +4446,6 @@ conceived.
+@@ -4637,8 +4473,6 @@ conceived.
  			<apn value="etc.com">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -765,7 +766,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  		<cdma>
-@@ -4742,22 +4576,16 @@ conceived.
+@@ -4777,22 +4611,16 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Postpaid (contract) NAT (available for all subscribers)</name>
@@ -788,7 +789,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.saunalahti.fi">
  				<usage type="mms"/>
-@@ -4774,8 +4602,6 @@ conceived.
+@@ -4809,8 +4637,6 @@ conceived.
  			<apn value="internet">
  				<usage type="internet"/>
  				<name>Telia Internet</name>
@@ -797,7 +798,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="opengate">
  				<plan type="postpaid"/>
-@@ -4902,31 +4728,26 @@ conceived.
+@@ -4937,31 +4763,26 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Contrat Pro Data Illimité</name>
@@ -829,7 +830,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mmsbouygtel.com">
  				<usage type="mms"/>
-@@ -4998,15 +4819,11 @@ conceived.
+@@ -5033,15 +4854,11 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Orange Internet</name>
@@ -845,7 +846,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="orange">
  				<plan type="postpaid"/>
-@@ -5014,8 +4831,6 @@ conceived.
+@@ -5049,8 +4866,6 @@ conceived.
  				<name>No Contract / Mobicarte</name>
  				<username>orange</username>
  				<password>orange</password>
@@ -854,7 +855,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="orange-mib">
  				<plan type="postpaid"/>
-@@ -5023,8 +4838,6 @@ conceived.
+@@ -5058,8 +4873,6 @@ conceived.
  				<name>Orange Entreprises</name>
  				<username>mportail</username>
  				<password>mib</password>
@@ -863,7 +864,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="orange.acte">
  				<usage type="mms"/>
-@@ -5089,8 +4902,6 @@ conceived.
+@@ -5124,8 +4937,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Web / Prepaid</name>
@@ -872,7 +873,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="wapsfr">
  				<plan type="postpaid"/>
-@@ -5111,8 +4922,6 @@ conceived.
+@@ -5146,8 +4957,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Mobile Broadband</name>
@@ -881,7 +882,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="sl2sfr">
  				<plan type="postpaid"/>
-@@ -5244,8 +5053,6 @@ conceived.
+@@ -5279,8 +5088,6 @@ conceived.
  				<username>o2web</username>
  				<password>password</password>
  				<authentication method="pap"/>
@@ -890,7 +891,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mobile.o2.co.uk">
  				<plan type="postpaid"/>
-@@ -5253,8 +5060,6 @@ conceived.
+@@ -5288,8 +5095,6 @@ conceived.
  				<name>Contract (faster)</name>
  				<username>faster</username>
  				<password>password</password>
@@ -899,7 +900,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="payandgo.o2.co.uk">
  				<plan type="prepaid"/>
-@@ -5276,8 +5081,6 @@ conceived.
+@@ -5311,8 +5116,6 @@ conceived.
  				<name>Mobile Broadband</name>
  				<username>o2bb</username>
  				<password>password</password>
@@ -908,7 +909,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="wap.o2.co.uk">
  				<plan type="postpaid"/>
-@@ -5352,14 +5155,10 @@ conceived.
+@@ -5387,14 +5190,10 @@ conceived.
  				<usage type="internet"/>
  				<username>User</username>
  				<password>mms</password>
@@ -923,7 +924,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="general.t-mobile.uk">
  				<usage type="mms"/>
-@@ -5388,7 +5187,6 @@ conceived.
+@@ -5423,7 +5222,6 @@ conceived.
  				<usage type="internet"/>
  				<username>tescowap</username>
  				<password>password</password>
@@ -931,7 +932,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -5400,8 +5198,6 @@ conceived.
+@@ -5435,8 +5233,6 @@ conceived.
  			<apn value="vdata">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -940,7 +941,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="goto.virginmobile.uk">
  				<plan type="postpaid"/>
-@@ -5436,8 +5232,6 @@ conceived.
+@@ -5471,8 +5267,6 @@ conceived.
  				<name>Contract</name>
  				<username>web</username>
  				<password>web</password>
@@ -949,7 +950,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="pp.vodafone.co.uk">
  				<plan type="prepaid"/>
-@@ -5445,8 +5239,6 @@ conceived.
+@@ -5480,8 +5274,6 @@ conceived.
  				<name>Prepaid</name>
  				<username>web</username>
  				<password>web</password>
@@ -958,7 +959,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="ppbundle.internet">
  				<plan type="postpaid"/>
-@@ -5454,8 +5246,6 @@ conceived.
+@@ -5489,8 +5281,6 @@ conceived.
  				<name>TopUp and Go</name>
  				<username>web</username>
  				<password>web</password>
@@ -967,7 +968,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="pp.internet">
  				<plan type="postpaid"/>
-@@ -5528,8 +5318,6 @@ conceived.
+@@ -5563,8 +5353,6 @@ conceived.
  				<name>Contract</name>
  				<username>orange</username>
  				<password>orange</password>
@@ -976,7 +977,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internetvpn">
  				<plan type="postpaid"/>
-@@ -5537,8 +5325,6 @@ conceived.
+@@ -5572,8 +5360,6 @@ conceived.
  				<name>Contract (with VPN)</name>
  				<username>orange</username>
  				<password>orange</password>
@@ -985,7 +986,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="orangewap">
  				<plan type="postpaid"/>
-@@ -5546,8 +5332,6 @@ conceived.
+@@ -5581,8 +5367,6 @@ conceived.
  				<name>Orange WAP</name>
  				<username>orange</username>
  				<password>multimedia</password>
@@ -994,7 +995,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="orangemms">
  				<usage type="mms"/>
-@@ -5576,8 +5360,6 @@ conceived.
+@@ -5611,8 +5395,6 @@ conceived.
  			<apn value="Internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1003,7 +1004,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -5630,8 +5412,6 @@ conceived.
+@@ -5665,8 +5447,6 @@ conceived.
  			<apn value="pepper">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1012,7 +1013,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -5809,8 +5589,6 @@ conceived.
+@@ -5844,8 +5624,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Mobile Broadband On Demand</name>
@@ -1021,7 +1022,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vodafone.net">
  				<usage type="mms"/>
-@@ -6153,7 +5931,6 @@ conceived.
+@@ -6188,7 +5966,6 @@ conceived.
  			<apn value="web.htgprs">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1029,7 +1030,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.htgprs">
  				<usage type="mms"/>
-@@ -6178,7 +5955,6 @@ conceived.
+@@ -6213,7 +5990,6 @@ conceived.
  				<name>GPRS 5</name>
  				<username>38591</username>
  				<password>38591</password>
@@ -1037,7 +1038,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="gprs0.vipnet.hr">
  				<plan type="postpaid"/>
-@@ -6186,7 +5962,6 @@ conceived.
+@@ -6221,7 +5997,6 @@ conceived.
  				<name>GPRS 0</name>
  				<username>38591</username>
  				<password>38591</password>
@@ -1045,7 +1046,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="3g.vip.hr">
  				<plan type="postpaid"/>
-@@ -6194,8 +5969,6 @@ conceived.
+@@ -6229,8 +6004,6 @@ conceived.
  				<name>3G</name>
  				<username>38591</username>
  				<password>38591</password>
@@ -1054,7 +1055,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vipnet.hr">
  				<usage type="mms"/>
-@@ -6236,7 +6009,6 @@ conceived.
+@@ -6271,7 +6044,6 @@ conceived.
  			<apn value="mobileinternet.tele2.hr">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1062,7 +1063,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -6252,8 +6024,6 @@ conceived.
+@@ -6287,8 +6059,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>mobilinternet</name>
@@ -1071,7 +1072,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -6301,30 +6071,22 @@ conceived.
+@@ -6336,30 +6106,22 @@ conceived.
  				<name>Előf. Normál</name>
  				<username>vodawap</username>
  				<password>vodawap</password>
@@ -1102,7 +1103,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vodafone.net">
  				<usage type="mms"/>
-@@ -6459,8 +6221,6 @@ conceived.
+@@ -6494,8 +6256,6 @@ conceived.
  				<usage type="internet"/>
  				<username>wap</username>
  				<password>wap123</password>
@@ -1111,7 +1112,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  
  			<!-- http://www.telkomsel.com/telkomselflash/telkomsel-flash -->
-@@ -6497,8 +6257,6 @@ conceived.
+@@ -6532,8 +6292,6 @@ conceived.
  				<usage type="internet"/>
  				<username>xlgprs</username>
  				<password>proxl</password>
@@ -1120,7 +1121,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="www.xlmms.net">
  				<usage type="mms"/>
-@@ -6582,8 +6340,6 @@ conceived.
+@@ -6617,8 +6375,6 @@ conceived.
  				<name>Contract</name>
  				<username>gprs</username>
  				<password>gprs</password>
@@ -1129,7 +1130,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet">
  				<usage type="mms"/>
-@@ -6597,8 +6353,6 @@ conceived.
+@@ -6632,8 +6388,6 @@ conceived.
  				<name>Prepaid</name>
  				<username>faster</username>
  				<password>web</password>
@@ -1138,7 +1139,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet">
  				<plan type="prepaid"/>
-@@ -6625,8 +6379,6 @@ conceived.
+@@ -6660,8 +6414,6 @@ conceived.
  				<usage type="internet"/>
  				<username>vodafone</username>
  				<password>vodafone</password>
@@ -1147,7 +1148,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="isp.vodafone.ie">
  				<plan type="postpaid"/>
-@@ -6641,7 +6393,6 @@ conceived.
+@@ -6676,7 +6428,6 @@ conceived.
  				<name>Prepaid</name>
  				<username>vodafone</username>
  				<password>vodafone</password>
@@ -1155,7 +1156,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vodafone.net">
  				<usage type="mms"/>
-@@ -6660,8 +6411,6 @@ conceived.
+@@ -6695,8 +6446,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Broadband To Go</name>
@@ -1164,7 +1165,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.mymeteor.ie">
  				<usage type="mms"/>
-@@ -6696,8 +6445,6 @@ conceived.
+@@ -6731,8 +6480,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Broadband To Go</name>
@@ -1173,7 +1174,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="isp.mymeteor.ie">
  				<plan type="postpaid"/>
-@@ -6715,8 +6462,6 @@ conceived.
+@@ -6750,8 +6497,6 @@ conceived.
  			<apn value="3ireland.ie">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1182,7 +1183,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="3ireland.ie">
  				<usage type="mms"/>
-@@ -6793,8 +6538,6 @@ conceived.
+@@ -6828,8 +6573,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>3G Internet</name>
@@ -1191,7 +1192,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="uwap.orange.co.il">
  				<usage type="mms"/>
-@@ -6984,8 +6727,6 @@ conceived.
+@@ -7019,8 +6762,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Airtel Internet</name>
@@ -1200,7 +1201,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="airtelmms.com">
  				<usage type="mms"/>
-@@ -7109,15 +6850,11 @@ conceived.
+@@ -7144,15 +6885,11 @@ conceived.
  				<plan type="prepaid"/>
  				<usage type="internet"/>
  				<name>Old East Zone Prepaid (Jharkhand, Bihar, Kolkata, West Bengal, Orissa, Assam, North East, Adman Nicobar)</name>
@@ -1216,7 +1217,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mmssouth.cellone.in">
  				<usage type="mms"/>
-@@ -7490,8 +7227,6 @@ conceived.
+@@ -7525,8 +7262,6 @@ conceived.
  			<apn value="vmc.gprs.is">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1225,7 +1226,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.gprs.is">
  				<usage type="mms"/>
-@@ -7508,8 +7243,6 @@ conceived.
+@@ -7543,8 +7278,6 @@ conceived.
  			<apn value="internet.nova.is">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1234,7 +1235,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.nova.is">
  				<usage type="mms"/>
-@@ -7526,8 +7259,6 @@ conceived.
+@@ -7561,8 +7294,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1243,7 +1244,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.simi.is">
  				<usage type="mms"/>
-@@ -7559,8 +7290,6 @@ conceived.
+@@ -7594,8 +7325,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Internet Facile (old)</name>
@@ -1252,7 +1253,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vodafone.it">
  				<usage type="mms"/>
-@@ -7578,16 +7307,12 @@ conceived.
+@@ -7613,16 +7342,12 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>TIM Internet</name>
@@ -1269,7 +1270,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="unico.tim.it">
  				<usage type="mms"/>
-@@ -7624,8 +7349,6 @@ conceived.
+@@ -7659,8 +7384,6 @@ conceived.
  				<name>Non-business</name>
  				<username>Wind</username>
  				<password>Wind</password>
@@ -1278,7 +1279,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet.wind.biz">
  				<plan type="postpaid"/>
-@@ -7633,8 +7356,6 @@ conceived.
+@@ -7668,8 +7391,6 @@ conceived.
  				<name>Business</name>
  				<username>Wind</username>
  				<password>Wind</password>
@@ -1287,7 +1288,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.wind">
  				<usage type="mms"/>
-@@ -7652,8 +7373,6 @@ conceived.
+@@ -7687,8 +7408,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Ricaricabile</name>
@@ -1296,7 +1297,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="datacard.tre.it">
  				<plan type="postpaid"/>
-@@ -7675,8 +7394,6 @@ conceived.
+@@ -7710,8 +7429,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Solo dati</name>
@@ -1305,7 +1306,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="tre.it">
  				<usage type="mms"/>
-@@ -7835,8 +7552,6 @@ conceived.
+@@ -7870,8 +7587,6 @@ conceived.
  				<usage type="internet"/>
  				<username>abc</username>
  				<password>abc</password>
@@ -1314,7 +1315,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -7863,8 +7578,6 @@ conceived.
+@@ -7898,8 +7613,6 @@ conceived.
  				<usage type="internet"/>
  				<username>wapuser</username>
  				<password>wap03jam</password>
@@ -1323,7 +1324,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="wap.digiceljamaica.com">
  				<usage type="mms"/>
-@@ -8073,8 +7786,6 @@ conceived.
+@@ -8108,8 +7821,6 @@ conceived.
  		<cdma>
  			<username>au@au-win.ne.jp</username>
  			<password>au</password>
@@ -1332,7 +1333,7 @@ index d6d884e9..f2e81f06 100644
  		</cdma>
  	</provider>
  </country>
-@@ -8493,8 +8204,6 @@ conceived.
+@@ -8528,8 +8239,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>@internet.beeline</username>
@@ -1341,7 +1342,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -8556,7 +8265,6 @@ conceived.
+@@ -8591,7 +8300,6 @@ conceived.
  			<apn value="etlnet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1349,7 +1350,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -8769,8 +8477,6 @@ conceived.
+@@ -8804,8 +8512,6 @@ conceived.
  			<apn value="banga">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1358,7 +1359,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -8812,8 +8518,6 @@ conceived.
+@@ -8847,8 +8553,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Contract</name>
@@ -1367,7 +1368,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="gprs.startas.lt">
  				<plan type="postpaid"/>
-@@ -8821,8 +8525,6 @@ conceived.
+@@ -8856,8 +8560,6 @@ conceived.
  				<name>No contract</name>
  				<username>omni</username>
  				<password>omni</password>
@@ -1376,7 +1377,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="gprs.mms.lt">
  				<usage type="mms"/>
-@@ -8845,8 +8547,6 @@ conceived.
+@@ -8880,8 +8582,6 @@ conceived.
  			<apn value="web.pt.lu">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1385,7 +1386,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.pt.lu">
  				<usage type="mms"/>
-@@ -8875,8 +8575,6 @@ conceived.
+@@ -8910,8 +8610,6 @@ conceived.
  				<name>internet</name>
  				<username>tango</username>
  				<password>tango</password>
@@ -1394,7 +1395,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -8895,8 +8593,6 @@ conceived.
+@@ -8930,8 +8628,6 @@ conceived.
  			<apn value="orange.lu">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1403,7 +1404,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -8927,8 +8623,6 @@ conceived.
+@@ -8962,8 +8658,6 @@ conceived.
  			<apn value="internet.lmt.lv">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1412,7 +1413,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="open.lmt.lv">
  				<plan type="postpaid"/>
-@@ -9531,8 +9225,6 @@ conceived.
+@@ -9566,8 +9260,6 @@ conceived.
  				<usage type="internet"/>
  				<username>internet</username>
  				<password>internet</password>
@@ -1421,7 +1422,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -9684,8 +9376,6 @@ conceived.
+@@ -9719,8 +9411,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Mobile Internet</name>
@@ -1430,7 +1431,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="3gdgnet">
  				<plan type="postpaid"/>
-@@ -9727,8 +9417,6 @@ conceived.
+@@ -9762,8 +9452,6 @@ conceived.
  				<name>3G (handsets)</name>
  				<username>maxis</username>
  				<password>wap</password>
@@ -1439,7 +1440,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="net">
  				<usage type="mms"/>
-@@ -9816,8 +9504,6 @@ conceived.
+@@ -9851,8 +9539,6 @@ conceived.
  				<usage type="internet"/>
  				<username>guest</username>
  				<password>guest</password>
@@ -1448,7 +1449,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.mcel.mz">
  				<usage type="mms"/>
-@@ -10139,8 +9825,6 @@ conceived.
+@@ -10184,8 +9870,6 @@ conceived.
  				<usage type="internet"/>
  				<username>KPN</username>
  				<password>gprs</password>
@@ -1457,7 +1458,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="KPN4G.nl">
  				<plan type="postpaid"/>
-@@ -10228,8 +9912,6 @@ conceived.
+@@ -10273,8 +9957,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Ben internet</name>
@@ -1466,7 +1467,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.ben">
  				<usage type="mms"/>
-@@ -10297,8 +9979,6 @@ conceived.
+@@ -10342,8 +10024,6 @@ conceived.
  				<name>Non-business</name>
  				<username>vodafone</username>
  				<password>vodafone</password>
@@ -1475,7 +1476,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="office.vodafone.nl">
  				<plan type="postpaid"/>
-@@ -10345,8 +10025,6 @@ conceived.
+@@ -10401,8 +10081,6 @@ conceived.
  				<usage type="internet"/>
  				<username>netcom</username>
  				<password>netcom</password>
@@ -1484,7 +1485,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.netcom.no">
  				<usage type="mms"/>
-@@ -10425,8 +10103,6 @@ conceived.
+@@ -10481,8 +10159,6 @@ conceived.
  			<apn value="internet.no">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1493,7 +1494,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -10611,15 +10287,11 @@ conceived.
+@@ -10667,15 +10343,11 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>XT mobile (Internet with Firewall)</name>
@@ -1509,7 +1510,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="oa.telecom.co.nz">
  				<plan type="postpaid"/>
-@@ -10642,8 +10314,6 @@ conceived.
+@@ -10698,8 +10370,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>WAP</name>
@@ -1518,7 +1519,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="www.vodafone.net.nz">
  				<plan type="postpaid"/>
-@@ -10654,8 +10324,6 @@ conceived.
+@@ -10710,8 +10380,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Unrestricted (public)</name>
@@ -1527,7 +1528,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="live.vodafone.com">
  				<usage type="mms"/>
-@@ -10678,8 +10346,6 @@ conceived.
+@@ -10734,8 +10402,6 @@ conceived.
  				<plan type="prepaid"/>
  				<usage type="internet"/>
  				<name>Broadband</name>
@@ -1536,7 +1537,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -10786,8 +10452,6 @@ conceived.
+@@ -10842,8 +10508,6 @@ conceived.
  				<usage type="internet"/>
  				<username>movistarpa</username>
  				<password>movistarpa</password>
@@ -1545,7 +1546,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -10887,8 +10551,6 @@ conceived.
+@@ -10943,8 +10607,6 @@ conceived.
  				<name>Postpaid</name>
  				<username>globe</username>
  				<password>globe</password>
@@ -1554,7 +1555,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="http.globe.com.ph">
  				<plan type="prepaid"/>
-@@ -10896,8 +10558,6 @@ conceived.
+@@ -10952,8 +10614,6 @@ conceived.
  				<name>Prepaid</name>
  				<username>globe</username>
  				<password>globe</password>
@@ -1563,7 +1564,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="www.globe.com.ph">
  				<plan type="postpaid"/>
-@@ -10905,8 +10565,6 @@ conceived.
+@@ -10961,8 +10621,6 @@ conceived.
  				<name>WAP</name>
  				<username>globe</username>
  				<password>globe</password>
@@ -1572,7 +1573,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="real.globe.com.ph">
  				<usage type="mms"/>
-@@ -10927,8 +10585,6 @@ conceived.
+@@ -10983,8 +10641,6 @@ conceived.
  				<usage type="internet"/>
  				<username>witsductoor</username>
  				<password>banonoy</password>
@@ -1581,7 +1582,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -11129,8 +10785,6 @@ conceived.
+@@ -11185,8 +10841,6 @@ conceived.
  				<name xml:lang="pl">Dostęp standardowy</name>
  				<username>internet</username>
  				<password>internet</password>
@@ -1590,7 +1591,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internetipv6">
  				<plan type="postpaid"/>
-@@ -11140,8 +10794,6 @@ conceived.
+@@ -11196,8 +10850,6 @@ conceived.
  				<name xml:lang="pl">Dostęp standardowy (IPv6)</name>
  				<username>internetipv6</username>
  				<password>internetipv6</password>
@@ -1599,7 +1600,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="vpn">
  				<plan type="postpaid"/>
-@@ -11516,22 +11168,16 @@ conceived.
+@@ -11572,22 +11224,16 @@ conceived.
  				<usage type="internet"/>
  				<name>Portable</name>
  				<name xml:lang="pt">Portátil</name>
@@ -1622,7 +1623,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -11548,7 +11194,6 @@ conceived.
+@@ -11604,7 +11250,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>GPRS</name>
@@ -1630,7 +1631,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="umts">
  				<usage type="mms"/>
-@@ -11584,8 +11229,6 @@ conceived.
+@@ -11640,8 +11285,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>TMN Internet</name>
@@ -1639,7 +1640,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mmsc.tmn.pt">
  				<usage type="mms"/>
-@@ -11612,8 +11255,6 @@ conceived.
+@@ -11668,8 +11311,6 @@ conceived.
  				<name>Vodafone Internet</name>
  				<username>vodafone</username>
  				<password>vodafone</password>
@@ -1648,7 +1649,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="net2.vodafone.pt">
  				<usage type="mms"/>
-@@ -11843,8 +11484,6 @@ conceived.
+@@ -11899,8 +11540,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1657,7 +1658,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -11998,7 +11637,6 @@ conceived.
+@@ -12054,7 +11693,6 @@ conceived.
  				<usage type="internet"/>
  				<username>mts</username>
  				<password>064</password>
@@ -1665,7 +1666,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -12068,8 +11706,6 @@ conceived.
+@@ -12124,8 +11762,6 @@ conceived.
  				<usage type="internet"/>
  				<username>bwc</username>
  				<password>bwc</password>
@@ -1674,7 +1675,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.bwc.ru">
  				<usage type="mms"/>
-@@ -12098,8 +11734,6 @@ conceived.
+@@ -12154,8 +11790,6 @@ conceived.
  				<name xml:lang="ru">Мобильный телефон</name>
  				<username>beeline</username>
  				<password>beeline</password>
@@ -1683,7 +1684,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="home.beeline.ru">
  				<plan type="postpaid"/>
-@@ -12108,8 +11742,6 @@ conceived.
+@@ -12164,8 +11798,6 @@ conceived.
  				<name xml:lang="ru">USB-модем</name>
  				<username>beeline</username>
  				<password>beeline</password>
@@ -1692,7 +1693,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.beeline.ru">
  				<usage type="mms"/>
-@@ -12158,8 +11790,6 @@ conceived.
+@@ -12214,8 +11846,6 @@ conceived.
  				<usage type="internet"/>
  				<username>mts</username>
  				<password>mts</password>
@@ -1701,7 +1702,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.mts.ru">
  				<usage type="mms"/>
-@@ -12203,8 +11833,6 @@ conceived.
+@@ -12259,8 +11889,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>ncc</username>
@@ -1710,7 +1711,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -12221,8 +11849,6 @@ conceived.
+@@ -12277,8 +11905,6 @@ conceived.
  			<apn value="internet.ntc">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1719,7 +1720,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.ntc">
  				<usage type="mms"/>
-@@ -12241,8 +11867,6 @@ conceived.
+@@ -12297,8 +11923,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>etk</username>
@@ -1728,7 +1729,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -12255,8 +11879,6 @@ conceived.
+@@ -12311,8 +11935,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>motiv</username>
@@ -1737,7 +1738,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -12269,8 +11891,6 @@ conceived.
+@@ -12325,8 +11947,6 @@ conceived.
  				<usage type="internet"/>
  				<username>tatincom</username>
  				<password>tatincom</password>
@@ -1746,7 +1747,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -12282,8 +11902,6 @@ conceived.
+@@ -12338,8 +11958,6 @@ conceived.
  			<apn value="internet.tele2.ru">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1755,7 +1756,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.tele2.ru">
  				<usage type="mms"/>
-@@ -12484,8 +12102,6 @@ conceived.
+@@ -12540,8 +12158,6 @@ conceived.
  			<apn value="jawalnet.com.sa">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1764,7 +1765,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.net.sa">
  				<usage type="mms"/>
-@@ -12843,8 +12459,6 @@ conceived.
+@@ -12899,8 +12515,6 @@ conceived.
  				<usage type="internet"/>
  				<name>SunSurf/Mobile Broadband (postpaid)</name>
  				<username>65</username>
@@ -1773,7 +1774,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<!-- http://m1.com.sg/filedownloads/popup/Miworld/popup_se2.5.html top page-->
  			<apn value="miworld">
-@@ -12896,8 +12510,6 @@ conceived.
+@@ -12952,8 +12566,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1782,7 +1783,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="e-ideas">
  				<usage type="mms"/>
-@@ -12930,7 +12542,6 @@ conceived.
+@@ -12986,7 +12598,6 @@ conceived.
  				<name>WAP</name>
  				<username>star</username>
  				<password>hub</password>
@@ -1790,7 +1791,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="shppd">
  				<plan type="prepaid"/>
-@@ -12965,16 +12576,12 @@ conceived.
+@@ -13021,16 +12632,12 @@ conceived.
  				<name>Postpaid</name>
  				<username>mobitel</username>
  				<password>internet</password>
@@ -1807,7 +1808,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="internet">
  				<usage type="mms"/>
-@@ -12998,8 +12605,6 @@ conceived.
+@@ -13054,8 +12661,6 @@ conceived.
  				<usage type="internet"/>
  				<username>simobil</username>
  				<password>internet</password>
@@ -1816,7 +1817,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.simobil.si">
  				<usage type="mms"/>
-@@ -13070,8 +12675,6 @@ conceived.
+@@ -13126,8 +12731,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1825,7 +1826,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -13091,8 +12694,6 @@ conceived.
+@@ -13147,8 +12750,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1834,7 +1835,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -13112,8 +12713,6 @@ conceived.
+@@ -13168,8 +12769,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Internet</name>
@@ -1843,7 +1844,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="o2mms">
  				<usage type="mms"/>
-@@ -13134,8 +12733,6 @@ conceived.
+@@ -13190,8 +12789,6 @@ conceived.
  			<apn value="wap.sentelgsm.com">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1852,7 +1853,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -13251,8 +12848,6 @@ conceived.
+@@ -13307,8 +12904,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1861,7 +1862,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="multimedia">
  				<usage type="mms"/>
-@@ -13291,8 +12886,6 @@ conceived.
+@@ -13347,8 +12942,6 @@ conceived.
  			<apn value="www.dtac.co.th">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1870,7 +1871,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -13451,16 +13044,12 @@ conceived.
+@@ -13507,16 +13100,12 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1887,7 +1888,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -13816,15 +13405,11 @@ conceived.
+@@ -13872,15 +13461,11 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Standard</name>
@@ -1903,7 +1904,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -13857,15 +13442,11 @@ conceived.
+@@ -13913,15 +13498,11 @@ conceived.
  			<apn value="www.jeans.ua">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1919,7 +1920,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.jeans.ua">
  				<usage type="mms"/>
-@@ -13897,8 +13478,6 @@ conceived.
+@@ -13953,8 +13534,6 @@ conceived.
  				<usage type="internet"/>
  				<name>GPRS Internet</name>
  				<username>internet</username>
@@ -1928,7 +1929,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="hyper.net">
  				<plan type="postpaid"/>
-@@ -13914,8 +13493,6 @@ conceived.
+@@ -13970,8 +13549,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>umc.ua</name>
@@ -1937,7 +1938,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  		<cdma>
-@@ -13971,8 +13548,6 @@ conceived.
+@@ -14027,8 +13604,6 @@ conceived.
  			<apn value="yellopix.mtn.co.ug">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1946,7 +1947,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -14150,8 +13725,6 @@ conceived.
+@@ -14216,8 +13791,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>Internet/WebConnect</name>
@@ -1955,7 +1956,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="wap.voicestream.com">
  				<plan type="postpaid"/>
-@@ -14276,8 +13849,6 @@ conceived.
+@@ -14342,8 +13915,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>4G LTE Contract</name>
@@ -1964,7 +1965,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="vzwapp">
  				<plan type="postpaid"/>
-@@ -15065,8 +14636,6 @@ conceived.
+@@ -15131,8 +14702,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>ADSL Móvil</name>
@@ -1973,7 +1974,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="prepago.ancel">
  				<plan type="prepaid"/>
-@@ -15079,8 +14648,6 @@ conceived.
+@@ -15145,8 +14714,6 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<name>GPRS</name>
@@ -1982,7 +1983,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -15213,7 +14780,6 @@ conceived.
+@@ -15279,7 +14846,6 @@ conceived.
  			<apn value="gprsweb.digitel.ve">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1990,7 +1991,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="expresate.digitel.ve">
  				<usage type="mms"/>
-@@ -15230,8 +14796,6 @@ conceived.
+@@ -15296,8 +14862,6 @@ conceived.
  			<apn value="int.movilnet.com.ve">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -1999,7 +2000,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mm.movilnet.com.ve">
  				<usage type="mms"/>
-@@ -15248,8 +14812,6 @@ conceived.
+@@ -15314,8 +14878,6 @@ conceived.
  			<apn value="internet.movistar.ve">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -2008,7 +2009,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -15407,8 +14969,6 @@ conceived.
+@@ -15473,8 +15035,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -2017,7 +2018,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -15440,8 +15000,6 @@ conceived.
+@@ -15506,8 +15066,6 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -2026,7 +2027,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="myMTN">
  				<usage type="mms"/>
-@@ -15469,15 +15027,11 @@ conceived.
+@@ -15535,15 +15093,11 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -2042,7 +2043,7 @@ index d6d884e9..f2e81f06 100644
  			</apn>
  			<apn value="mms.vodacom.net">
  				<usage type="mms"/>
-@@ -15500,8 +15054,6 @@ conceived.
+@@ -15566,8 +15120,6 @@ conceived.
  			<apn value="vdata">
  				<plan type="postpaid"/>
  				<usage type="internet"/>

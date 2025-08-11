@@ -8,10 +8,10 @@ Subject: [PATCH] Added a2mobile MVNO and remove Nordisk Polska (POLAND)
  1 file changed, 18 insertions(+), 6 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index ac2d4cd0..6245afbe 100644
+index e6487fd6..06b58201 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11164,12 +11164,24 @@ conceived.
+@@ -11220,12 +11220,24 @@ conceived.
  			<password>sferia</password>
  		</cdma>
  	</provider>

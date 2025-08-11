@@ -9,10 +9,10 @@ Added APN settings and MCC/MNC identifiers for network operator "Letai".
  1 file changed, 17 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 272e0568..339585ee 100644
+index 5c1fc627..1790f459 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -12091,6 +12091,23 @@ conceived.
+@@ -12147,6 +12147,23 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

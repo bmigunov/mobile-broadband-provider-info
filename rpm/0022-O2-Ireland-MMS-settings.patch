@@ -9,10 +9,10 @@ http://community.o2online.ie/t5/Help-Support/Mobile-Internet-and-MMS-Settings/ta
  1 file changed, 6 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 0c1d4333..d19b1973 100644
+index 9dbc15e7..19e02f76 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6563,6 +6563,12 @@ conceived.
+@@ -6603,6 +6603,12 @@ conceived.
  				<dns>62.40.32.33</dns>
  				<dns>62.40.32.34</dns>
  			</apn>

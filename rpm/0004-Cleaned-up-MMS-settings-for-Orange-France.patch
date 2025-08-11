@@ -8,10 +8,10 @@ Subject: [PATCH] Cleaned up MMS settings for Orange France
  1 file changed, 1 insertion(+), 20 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 98b63e1b..08883fd6 100644
+index 2d5b5f27..9a5d9ccb 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4970,6 +4970,7 @@ conceived.
+@@ -5010,6 +5010,7 @@ conceived.
  		<gsm>
  			<network-id mcc="208" mnc="01"/>
  			<network-id mcc="208" mnc="02"/>
@@ -19,7 +19,7 @@ index 98b63e1b..08883fd6 100644
  
  			<voicemail>888</voicemail>
  			<balance-check>
-@@ -5011,18 +5012,6 @@ conceived.
+@@ -5051,18 +5052,6 @@ conceived.
  				<dns>172.17.0.2</dns>
  				<dns>172.17.0.4</dns>
  			</apn>
@@ -38,7 +38,7 @@ index 98b63e1b..08883fd6 100644
  			<apn value="orange.acte">
  				<usage type="mms"/>
  				<name>Orange FR-MMS</name>
-@@ -5031,14 +5020,6 @@ conceived.
+@@ -5071,14 +5060,6 @@ conceived.
  				<mmsc>http://mms.orange.fr</mmsc>
  				<mmsproxy>192.168.10.200:8080</mmsproxy>
  			</apn>

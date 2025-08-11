@@ -9,10 +9,10 @@ Subject: [PATCH] Noverca acquired by TIM S.p.A and now is a Full MVNO called
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index f3e2e194..b5ccab55 100644
+index fee800b3..e49df683 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -7429,17 +7429,17 @@ conceived.
+@@ -7464,17 +7464,17 @@ conceived.
  	</provider>
  	<provider>
  		<!-- http://www.noverca.it/configurazione-internet-wap-mms -->
