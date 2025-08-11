@@ -1,0 +1,66 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Wed, 2 Apr 2014 15:47:21 +0300
+Subject: [PATCH] Fixed settings for Telenor Norway
+
+Ventelo settings were being selected for Telenor customers:
+
+http://www.telenor.no/privat/kundeservice/mobilhjelp/internettpamobilen/
+http://www.ventelo.no/bedrift/kundeservice/mobil/oppsett/manuelt-oppsett/
+
+It appears that both Telenor and Ventelo use mcc="242" mnc="01" but
+a) according to wikipedia it's Telenor's MCC/MNC and b) Telenor is bigger
+so let's fix it for Telenor customers and let those Ventelo customers with
+242/01 enter MMS settings manually. That's the best we can do in the moment.
+---
+ serviceproviders.xml | 26 ++++++++++----------------
+ 1 file changed, 10 insertions(+), 16 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 147f428c..98b63e1b 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -10362,26 +10362,12 @@ conceived.
+ 				<mmsc>http://mmsc</mmsc>
+ 				<mmsproxy>mms-proxy.telenor.no:8080</mmsproxy>
+ 			</apn>
+-			<apn value="mms.ventelo.no">
+-				<usage type="mms"/>
+-				<name>Ludo MMS</name>
+-				<username>ventelo</username>
+-				<password>1111</password>
+-				<mmsc>http://mmsc/</mmsc>
+-				<mmsproxy>10.10.10.11:8080</mmsproxy>
+-			</apn>
+-			<apn value="mms">
+-				<usage type="mms"/>
+-				<name>Telenor MMS</name>
+-				<mmsc>http://mmsc/</mmsc>
+-				<mmsproxy>10.10.10.11:8080</mmsproxy>
+-			</apn>
+ 			<apn value="telenor">
+ 				<usage type="mms"/>
+-				<name>Mobitalk MMS</name>
++				<name>Telenor MMS</name>
+ 				<username>dj</username>
+ 				<password>dj</password>
+-				<mmsc>http://mmsc/</mmsc>
++				<mmsc>http://mmsc</mmsc>
+ 				<mmsproxy>10.10.10.11:8080</mmsproxy>
+ 			</apn>
+ 		</gsm>
+@@ -10458,6 +10444,14 @@ conceived.
+ 				<plan type="postpaid"/>
+ 				<usage type="internet"/>
+ 			</apn>
++			<apn value="mms.ventelo.no">
++				<usage type="mms"/>
++				<name>Ventelo MMS</name>
++				<username>ventelo</username>
++				<password>1111</password>
++				<mmsc>http://mmsc/</mmsc>
++				<mmsproxy>10.10.10.11:8080</mmsproxy>
++			</apn>
+ 		</gsm>
+ 	</provider>
+ 	<provider>

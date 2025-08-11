@@ -1,0 +1,41 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Mon, 26 Oct 2015 23:08:16 +0300
+Subject: [PATCH] Updated Vodafone PT settings. MER#902
+
+---
+ serviceproviders.xml | 14 +++++++++++---
+ 1 file changed, 11 insertions(+), 3 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index a0e52ef7..2cb17e72 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -11613,6 +11613,11 @@ conceived.
+ 		<name>Vodafone</name>
+ 		<gsm>
+ 			<network-id mcc="268" mnc="01"/>
++			<apn value="net2.vodafone.pt">
++				<plan type="postpaid"/>
++				<usage type="internet"/>
++				<name>Vodafone Internet</name>
++			</apn>
+ 			<apn value="internet.vodafone.pt">
+ 				<plan type="postpaid"/>
+ 				<usage type="internet"/>
+@@ -11623,9 +11628,12 @@ conceived.
+ 				<dns>212.18.160.134</dns>
+ 			</apn>
+ 			<apn value="net2.vodafone.pt">
+-				<plan type="postpaid"/>
+-				<usage type="internet"/>
+-				<name>Vodafone Internet</name>
++				<usage type="mms"/>
++				<name>Vodafone MMS</name>
++				<username>vodafone</username>
++				<password>vodafone</password>
++				<mmsc>http://mms.vodafone.pt/servlets/mms</mmsc>
++				<mmsproxy>213.30.42.196:80</mmsproxy> <!-- iproxy.vodafone.pt -->
+ 			</apn>
+ 			<apn value="vas.vodafone.pt">
+ 				<usage type="mms"/>

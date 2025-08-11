@@ -1,0 +1,81 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Martti Piirainen <martti.piirainen@oss.tieto.com>
+Date: Sun, 11 May 2014 11:51:12 +0300
+Subject: [PATCH] gb: Distiguish MNOs (primary providers) from MVNOs
+
+Checked from http://www.ofcom.org.uk/static/numbering/#mnc
+---
+ serviceproviders.xml | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index bf3534ca..05a974c2 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -5163,7 +5163,7 @@ conceived.
+ 
+ <!-- Britain -->
+ <country code="gb">
+-	<provider>
++	<provider primary="true">
+ 		<name>BT Mobile</name>
+ 		<gsm>
+ 			<network-id mcc="234" mnc="00"/>
+@@ -5193,7 +5193,7 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
++	<provider primary="true">
+ 		<name>O2</name>
+ 		<gsm>
+ 			<network-id mcc="234" mnc="02"/>
+@@ -5282,10 +5282,11 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
++	<provider primary="true">
+ 		<!-- http://sales.talktalk.co.uk/products/mobile/faq/started.html#A12 -->
+ 		<name>TalkTalk</name>
+ 		<gsm>
++			<network-id mcc="234" mnc="16"/>
+ 			<apn value="mobile.talktalk.co.uk">
+ 				<gateway>212.183.137.12:8799</gateway>
+ 				<username>wap</username>
+@@ -5293,7 +5294,7 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
++	<provider primary="true">
+ 		<name>T-Mobile</name>
+ 		<gsm>
+ 			<network-id mcc="234" mnc="30"/>
+@@ -5374,7 +5375,7 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
++	<provider primary="true">
+ 		<name>Vodafone</name>
+ 		<gsm>
+ 			<network-id mcc="234" mnc="15"/>
+@@ -5448,7 +5449,7 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
++	<provider primary="true">
+ 		<name>3</name>
+ 		<gsm>
+ 			<network-id mcc="234" mnc="20"/>
+@@ -5466,7 +5467,7 @@ conceived.
+ 			</apn>
+ 		</gsm>
+ 	</provider>
+-	<provider>
++	<provider primary="true">
+ 		<name>Orange</name>
+ 		<gsm>
+ 			<network-id mcc="234" mnc="33"/>
