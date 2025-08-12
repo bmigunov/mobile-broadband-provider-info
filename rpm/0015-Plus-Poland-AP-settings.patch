@@ -1,0 +1,50 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Mon, 19 May 2014 12:05:02 +0400
+Subject: [PATCH] Plus (Poland) AP settings
+
+---
+ serviceproviders.xml | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 57f8e399..59193f29 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -11344,6 +11344,10 @@ conceived.
+ 			<balance-top-up>
+ 				<ussd replacement="CODE">*123*CODE#</ussd>
+ 			</balance-top-up>
++			<apn value="plus">
++				<usage type="internet"/>
++				<name>Plus</name>
++			</apn>
+ 			<apn value="internet">
+ 				<plan type="postpaid"/>
+ 				<plan type="prepaid"/>
+@@ -11376,6 +11380,12 @@ conceived.
+ 				<name>iPlus optimizer with data compression</name>
+ 				<name xml:lang="pl">iPlus optimizer z kompresją danych</name>
+ 			</apn>
++			<apn value="mms">
++				<usage type="mms"/>
++				<name>Plus MMS</name>
++				<mmsc>http://mms.plusgsm.pl:8002</mmsc>
++				<mmsproxy>212.2.96.16:8080</mmsproxy>
++			</apn>
+ 			<apn value="mms.fmgmobile.pl">
+ 				<usage type="mms"/>
+ 				<name>FM Group Mobile MMS</name>
+@@ -11408,12 +11418,6 @@ conceived.
+ 				<mmsc>http://mms.plusgsm.pl:8002</mmsc>
+ 				<mmsproxy>212.2.96.16:8080</mmsproxy>
+ 			</apn>
+-			<apn value="mms">
+-				<usage type="mms"/>
+-				<name>PlusGSM MMS</name>
+-				<mmsc>http://mms.plusgsm.pl:8002</mmsc>
+-				<mmsproxy>212.2.96.16:8080</mmsproxy>
+-			</apn>
+ 			<apn value="mms.mobile.pl">
+ 				<usage type="mms"/>
+ 				<name>mBank mobile MMS</name>
