@@ -8,10 +8,10 @@ Subject: [PATCH] Added MMS settings for Vodafone UK
  1 file changed, 8 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 9c25b6bb..2381cc04 100644
+index 7b66bd2f..649f50dd 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5457,6 +5457,14 @@ conceived.
+@@ -5475,6 +5475,14 @@ conceived.
  				<usage type="internet"/>
  				<name>TopUp and Go (older 1GB SIMs)</name>
  			</apn>

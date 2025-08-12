@@ -8,10 +8,10 @@ Subject: [PATCH] Portugal cleanup
  1 file changed, 15 insertions(+), 37 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index ebffb7c9..b5b7d410 100644
+index 1c02f3de..e63c3e01 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11531,28 +11531,6 @@ conceived.
+@@ -11683,28 +11683,6 @@ conceived.
  				<dns>62.169.67.172</dns>
  				<dns>62.169.67.171</dns>
  			</apn>
@@ -40,7 +40,7 @@ index ebffb7c9..b5b7d410 100644
  		</gsm>
  	</provider>
  	<provider>
-@@ -11562,7 +11540,7 @@ conceived.
+@@ -11714,7 +11692,7 @@ conceived.
  			<apn value="umts">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -49,7 +49,7 @@ index ebffb7c9..b5b7d410 100644
  			</apn>
  			<apn value="internet">
  				<plan type="postpaid"/>
-@@ -11570,6 +11548,12 @@ conceived.
+@@ -11722,6 +11700,12 @@ conceived.
  				<name>GPRS</name>
  				<dns>194.79.69.129</dns>
  			</apn>
@@ -62,7 +62,7 @@ index ebffb7c9..b5b7d410 100644
  		</gsm>
  	</provider>
  	<provider>
-@@ -11597,21 +11581,10 @@ conceived.
+@@ -11749,21 +11733,10 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -85,7 +85,7 @@ index ebffb7c9..b5b7d410 100644
  			<apn value="mmsc.tmn.pt">
  				<usage type="mms"/>
  				<name>TMN MMS</name>
-@@ -11629,6 +11602,7 @@ conceived.
+@@ -11781,6 +11754,7 @@ conceived.
  			<apn value="internet.vodafone.pt">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -93,7 +93,7 @@ index ebffb7c9..b5b7d410 100644
  				<username>vodafone</username>
  				<password>vodafone</password>
  				<dns>212.18.160.133</dns>
-@@ -11656,14 +11630,18 @@ conceived.
+@@ -11808,14 +11782,18 @@ conceived.
  			<apn value="internet.zon.pt">
  				<plan type="postpaid"/>
  				<usage type="internet"/>

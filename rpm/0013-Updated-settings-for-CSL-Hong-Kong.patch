@@ -8,10 +8,10 @@ Subject: [PATCH] Updated settings for CSL Hong Kong
  1 file changed, 3 insertions(+), 14 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 8149f80f..e5068203 100644
+index 3e436be1..9acf4c87 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5965,11 +5965,10 @@ conceived.
+@@ -5983,11 +5983,10 @@ conceived.
  		<gsm>
  			<network-id mcc="454" mnc="00"/>
  			<network-id mcc="454" mnc="02"/>
@@ -26,7 +26,7 @@ index 8149f80f..e5068203 100644
  			</apn>
  			<apn value="hkcsl">
  				<usage type="mms"/>
-@@ -5977,16 +5976,6 @@ conceived.
+@@ -5995,16 +5994,6 @@ conceived.
  				<mmsc>http://192.168.58.171:8002</mmsc>
  				<mmsproxy>192.168.59.51:8080</mmsproxy>
  			</apn>

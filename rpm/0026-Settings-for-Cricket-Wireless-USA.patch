@@ -4,22 +4,14 @@ Date: Fri, 20 Feb 2015 12:28:33 +0200
 Subject: [PATCH] Settings for Cricket Wireless (USA)
 
 ---
- serviceproviders.xml | 18 +++++++++++++++++-
- 1 file changed, 17 insertions(+), 1 deletion(-)
+ serviceproviders.xml | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e6423c61..0478a98e 100644
+index 3f2fcf15..9063f8ec 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -14081,7 +14081,6 @@ conceived.
- 			<network-id mcc="310" mnc="030"/>
- 			<network-id mcc="310" mnc="038"/>
- 			<network-id mcc="310" mnc="090"/>
--			<network-id mcc="310" mnc="150"/>
- 			<network-id mcc="310" mnc="170"/>
- 			<network-id mcc="310" mnc="410"/>
- 			<network-id mcc="310" mnc="560"/>
-@@ -14146,6 +14145,23 @@ conceived.
+@@ -14254,6 +14254,23 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
