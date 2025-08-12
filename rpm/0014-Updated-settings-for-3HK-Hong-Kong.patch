@@ -9,10 +9,10 @@ Subject: [PATCH] Updated settings for 3HK (Hong Kong)
  1 file changed, 13 insertions(+), 9 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 73650415..a311444c 100644
+index 8cf59c5b..13a54818 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6087,36 +6087,40 @@ conceived.
+@@ -6112,36 +6112,40 @@ conceived.
  		</gsm>
  	</provider>
  	<provider>

@@ -8,12 +8,12 @@ Subject: [PATCH] Marocco providers update
  1 file changed, 14 insertions(+), 13 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 1813b770..308d1329 100644
+index 3a53f808..724151e4 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -9101,18 +9101,19 @@ conceived.
- <!-- Morocco -->
+@@ -9126,18 +9126,19 @@ conceived.
  <country code="ma">
+ 	<name>Morocco</name>
  	<provider>
 -		<name>Ittissalat Al Maghrib (IAM)</name>
 +		<name>Maroc Telecom (IAM)</name>
@@ -38,7 +38,7 @@ index 1813b770..308d1329 100644
  			</apn>
  			<apn value="Mmsiam">
  				<usage type="mms"/>
-@@ -9123,7 +9124,7 @@ conceived.
+@@ -9148,7 +9149,7 @@ conceived.
  		</gsm>
  	</provider>
  	<provider>
@@ -47,7 +47,7 @@ index 1813b770..308d1329 100644
  		<gsm>
  			<network-id mcc="604" mnc="00"/>
  			<apn value="internet1.meditel.ma">
-@@ -9142,7 +9143,7 @@ conceived.
+@@ -9167,7 +9168,7 @@ conceived.
  			</apn>
  			<apn value="mms.meditel.ma">
  				<usage type="mms"/>
@@ -56,7 +56,7 @@ index 1813b770..308d1329 100644
  				<username>MEDIMMS</username>
  				<password>MEDIMMS</password>
  				<mmsc>http://mms.meditel.ma:8088/mms</mmsc>
-@@ -9151,18 +9152,18 @@ conceived.
+@@ -9176,18 +9177,18 @@ conceived.
  		</gsm>
  	</provider>
  	<provider>

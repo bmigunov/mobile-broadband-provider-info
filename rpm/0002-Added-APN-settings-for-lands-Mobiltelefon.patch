@@ -12,10 +12,10 @@ Content-Transfer-Encoding: 8bit
  1 file changed, 16 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index f0021309..e6ff56f7 100644
+index fb8b48c2..7597f56c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4863,6 +4863,22 @@ conceived.
+@@ -4873,6 +4873,22 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -37,4 +37,4 @@ index f0021309..e6ff56f7 100644
 +	</provider>
  </country>
  
- <!-- Fiji -->
+ <country code="fj">

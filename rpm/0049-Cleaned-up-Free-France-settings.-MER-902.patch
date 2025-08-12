@@ -8,10 +8,10 @@ Subject: [PATCH] Cleaned up Free (France) settings. MER#902
  1 file changed, 4 insertions(+), 12 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 2d5238cc..9c78f957 100644
+index dd7b2860..acfddc18 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4834,9 +4834,9 @@ conceived.
+@@ -4844,9 +4844,9 @@ conceived.
  		</gsm>
  	</provider>
  	<provider>
@@ -23,7 +23,7 @@ index 2d5238cc..9c78f957 100644
  			<network-id mcc="208" mnc="15"/>
  			<voicemail>666</voicemail>
  			<visual-voicemail>
-@@ -4848,20 +4848,12 @@ conceived.
+@@ -4858,20 +4858,12 @@ conceived.
  				<sms text="conso">555</sms>
  			</balance-check>
  			<apn value="free">

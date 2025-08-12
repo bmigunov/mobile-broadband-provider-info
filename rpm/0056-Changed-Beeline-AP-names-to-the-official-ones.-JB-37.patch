@@ -8,18 +8,18 @@ Subject: [PATCH] Changed Beeline AP names to the official ones. JB#37626
  1 file changed, 2 insertions(+), 5 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index b9c6c6b7..7572e1ad 100644
+index 8531850f..bbb36284 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -12104,7 +12104,6 @@ conceived.
- 	</provider>
+@@ -12108,7 +12108,6 @@ conceived.
+ 	<name>Russia</name>
  	<provider>
  		<name>Beeline</name>
 -		<name xml:lang="ru">Билайн</name>
  		<gsm>
  			<network-id mcc="250" mnc="28"/>
  			<network-id mcc="250" mnc="44"/>
-@@ -12115,16 +12114,14 @@ conceived.
+@@ -12119,16 +12118,14 @@ conceived.
  			<apn value="internet.beeline.ru">
  				<plan type="postpaid"/>
  				<usage type="internet"/>

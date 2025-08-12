@@ -8,7 +8,7 @@ Subject: [PATCH] azeri providers update
  1 file changed, 17 insertions(+), 9 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 7f74bcab..82a497bd 100644
+index fca0f5cb..b3334b11 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -1124,23 +1124,31 @@ conceived.
@@ -49,7 +49,7 @@ index 7f74bcab..82a497bd 100644
  		</gsm>
  	</provider>
  </country>
-@@ -5514,9 +5522,9 @@ conceived.
+@@ -5539,9 +5547,9 @@ conceived.
  		<gsm>
  			<network-id mcc="282" mnc="01"/>
  			<apn value="internet">
@@ -60,7 +60,7 @@ index 7f74bcab..82a497bd 100644
  			</apn>
  			<apn value="mms">
  				<usage type="mms"/>
-@@ -5531,9 +5539,9 @@ conceived.
+@@ -5556,9 +5564,9 @@ conceived.
  		<gsm>
  			<network-id mcc="282" mnc="02"/>
  			<apn value="3g.ge">
@@ -71,7 +71,7 @@ index 7f74bcab..82a497bd 100644
  			</apn>
  			<apn value="mms.ge">
  				<usage type="mms"/>
-@@ -5548,9 +5556,9 @@ conceived.
+@@ -5573,9 +5581,9 @@ conceived.
  		<gsm>
  			<network-id mcc="282" mnc="04"/>
  			<apn value="internet.ge.beeline.net">

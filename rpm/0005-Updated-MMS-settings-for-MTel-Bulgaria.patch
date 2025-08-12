@@ -8,7 +8,7 @@ Subject: [PATCH] Updated MMS settings for MTel (Bulgaria)
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 4e6790c0..4443270b 100644
+index 7d8f8a9b..d5ee5dc1 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -1691,10 +1691,10 @@ conceived.

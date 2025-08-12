@@ -13,10 +13,10 @@ Signed-off-by: Marko Saukko <marko.saukko@jolla.com>
  1 file changed, 4 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 981c565c..d62dc080 100644
+index 4cec2a8a..3fe8cf94 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6825,6 +6825,7 @@ conceived.
+@@ -6850,6 +6850,7 @@ conceived.
  			<network-id mcc="404" mnc="03"/>
  			<network-id mcc="404" mnc="06"/>
  			<network-id mcc="404" mnc="10"/>
@@ -24,7 +24,7 @@ index 981c565c..d62dc080 100644
  			<network-id mcc="404" mnc="28"/>
  			<network-id mcc="404" mnc="31"/>
  			<network-id mcc="404" mnc="37"/>
-@@ -6837,13 +6838,16 @@ conceived.
+@@ -6862,13 +6863,16 @@ conceived.
  			<network-id mcc="404" mnc="90"/>
  			<network-id mcc="404" mnc="92"/>
  			<network-id mcc="404" mnc="93"/>

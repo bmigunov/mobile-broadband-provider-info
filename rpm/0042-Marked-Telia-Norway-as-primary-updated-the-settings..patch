@@ -8,13 +8,13 @@ Subject: [PATCH] Marked Telia Norway as primary, updated the settings. MER#902
  1 file changed, 8 insertions(+), 11 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 7cd2bd6b..1503fafa 100644
+index 028c25c0..5035713c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10275,8 +10275,8 @@ conceived.
+@@ -10300,8 +10300,8 @@ conceived.
  
- <!-- Norway -->
  <country code="no">
+ 	<name>Norway</name>
 -	<provider>
 -		<name>Netcom</name>
 +	<provider primary="true">
@@ -22,7 +22,7 @@ index 7cd2bd6b..1503fafa 100644
  		<gsm>
  			<network-id mcc="242" mnc="02"/>
  
-@@ -10284,19 +10284,16 @@ conceived.
+@@ -10309,19 +10309,16 @@ conceived.
  				<ussd>*150#</ussd>
  			</balance-check>
  

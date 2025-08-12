@@ -8,10 +8,10 @@ Subject: [PATCH] Added setup for MOI (Finland). MER#902
  1 file changed, 18 insertions(+), 7 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 34c071b4..2d5238cc 100644
+index e43db0a5..dd7b2860 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4541,7 +4541,7 @@ conceived.
+@@ -4551,7 +4551,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -20,7 +20,7 @@ index 34c071b4..2d5238cc 100644
  		<name>DNA</name>
  		<gsm>
  			<network-id mcc="244" mnc="03"/>
-@@ -4562,11 +4562,6 @@ conceived.
+@@ -4572,11 +4572,6 @@ conceived.
  				<usage type="internet"/>
  				<name>Postpaid (contract) public IP address (Nov 2016 and earlier individual, and all company subscriptions)</name>
  			</apn>
@@ -32,7 +32,7 @@ index 34c071b4..2d5238cc 100644
  			<apn value="mms">
  				<usage type="mms"/>
  				<name>MMS</name>
-@@ -4577,6 +4572,22 @@ conceived.
+@@ -4587,6 +4582,22 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -55,7 +55,7 @@ index 34c071b4..2d5238cc 100644
  	<provider>
  		<name>Elisa</name>
  		<gsm>
-@@ -4660,7 +4671,7 @@ conceived.
+@@ -4670,7 +4681,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

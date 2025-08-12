@@ -8,10 +8,10 @@ Subject: [PATCH] Housekeeping
  1 file changed, 6 insertions(+), 6 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 768aa092..b9c6c6b7 100644
+index 1100ed1f..8531850f 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10338,7 +10338,7 @@ conceived.
+@@ -10363,7 +10363,7 @@ conceived.
  	</provider>
  	<provider>
  		<!-- MVNO operating on Telia's network -->
@@ -20,7 +20,7 @@ index 768aa092..b9c6c6b7 100644
  		<name>Chess</name>
  		<gsm>
  			<network-id mcc="242" mnc="02"/>
-@@ -10367,7 +10367,7 @@ conceived.
+@@ -10392,7 +10392,7 @@ conceived.
  	</provider>
  	<provider>
  		<!-- MVNO operating on Telia's network -->
@@ -29,7 +29,7 @@ index 768aa092..b9c6c6b7 100644
  		<name>OneCall</name>
  		<gsm>
  			<network-id mcc="242" mnc="02"/>
-@@ -11373,7 +11373,7 @@ conceived.
+@@ -11398,7 +11398,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -38,7 +38,7 @@ index 768aa092..b9c6c6b7 100644
  		<name>Netia</name>
  		<gsm>
  			<network-id mcc="260" mnc="06"/>
-@@ -11383,7 +11383,7 @@ conceived.
+@@ -11408,7 +11408,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -47,7 +47,7 @@ index 768aa092..b9c6c6b7 100644
  		<name>Vectra</name>
  		<gsm>
  			<network-id mcc="260" mnc="06"/>
-@@ -11393,7 +11393,7 @@ conceived.
+@@ -11418,7 +11418,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -56,7 +56,7 @@ index 768aa092..b9c6c6b7 100644
  		<name>INEA</name>
  		<gsm>
  			<network-id mcc="260" mnc="03"/>
-@@ -11411,7 +11411,7 @@ conceived.
+@@ -11436,7 +11436,7 @@ conceived.
  			<password>sferia</password>
  		</cdma>
  	</provider>

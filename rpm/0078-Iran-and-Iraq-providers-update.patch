@@ -8,13 +8,13 @@ Subject: [PATCH] Iran and Iraq providers update
  1 file changed, 34 insertions(+), 23 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 7fbadaa0..a7c43799 100644
+index c02ebac4..25518555 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -7439,27 +7439,6 @@ conceived.
+@@ -7464,27 +7464,6 @@ conceived.
  
- <!-- Iraq -->
  <country code="iq">
+ 	<name>Iraq</name>
 -	<provider>
 -		<name>Itisaluna</name>
 -		<cdma>
@@ -39,7 +39,7 @@ index 7fbadaa0..a7c43799 100644
  	<provider>
  		<name>Korek</name>
  		<gsm>
-@@ -7488,28 +7467,60 @@ conceived.
+@@ -7513,28 +7492,60 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -55,8 +55,8 @@ index 7fbadaa0..a7c43799 100644
 +	</provider>
  </country>
  
- <!-- Iran -->
  <country code="ir">
+ 	<name>Iran</name>
  	<provider>
 -		<name>همراه اول</name>
 +		<name>Hamrahe Aval</name>

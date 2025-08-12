@@ -11,10 +11,10 @@ https://no.wikipedia.org/wiki/Chess_Communication
  1 file changed, 39 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index f42b4730..fe9d7fbf 100644
+index 740b65b7..ccc73d4c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10469,35 +10469,6 @@ conceived.
+@@ -10494,35 +10494,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -50,7 +50,7 @@ index f42b4730..fe9d7fbf 100644
  	<provider>
  		<!-- MVNO operating on Telia's network -->
  		<!-- https://onecall.no/kundeservice/oppsett-manuelt -->
-@@ -10634,16 +10605,6 @@ conceived.
+@@ -10659,16 +10630,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

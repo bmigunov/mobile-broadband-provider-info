@@ -8,12 +8,12 @@ Subject: [PATCH] Montenegro providers update
  1 file changed, 9 insertions(+), 9 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index eca74bee..7fbadaa0 100644
+index 50dee291..c02ebac4 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -9250,19 +9250,19 @@ conceived.
- <!-- Montenegro -->
+@@ -9275,19 +9275,19 @@ conceived.
  <country code="me">
+ 	<name>Montenegro</name>
  	<provider>
 -		<name>ProMonte GSM</name>
 +		<name>One</name>
@@ -36,7 +36,7 @@ index eca74bee..7fbadaa0 100644
  				<mmsproxy>192.168.246.5:8080</mmsproxy>
  			</apn>
  		</gsm>
-@@ -9309,17 +9309,17 @@ conceived.
+@@ -9334,17 +9334,17 @@ conceived.
  		<name>m:tel</name>
  		<gsm>
  			<network-id mcc="297" mnc="03"/>

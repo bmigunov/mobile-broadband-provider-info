@@ -10,7 +10,7 @@ Subject: [PATCH] Added apn protocol tag. JB#39520
  1 file changed, 4 insertions(+)
 
 diff --git a/serviceproviders.2.dtd b/serviceproviders.2.dtd
-index 3048c584..62ce1d10 100644
+index f2d5bd3c..44a54c3f 100644
 --- a/serviceproviders.2.dtd
 +++ b/serviceproviders.2.dtd
 @@ -16,6 +16,7 @@

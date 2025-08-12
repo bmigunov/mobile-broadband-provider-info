@@ -8,10 +8,10 @@ Subject: [PATCH] Update of Kazakh and Kyrgyz operators. MER#902
  1 file changed, 17 insertions(+), 12 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e6cd8f95..67e0ee42 100644
+index 453bd1dc..f97085ab 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -8234,12 +8234,18 @@ conceived.
+@@ -8259,12 +8259,18 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>
@@ -31,7 +31,7 @@ index e6cd8f95..67e0ee42 100644
  			<balance-check>
  				<ussd>*100#</ussd>
  			</balance-check>
-@@ -8540,11 +8546,20 @@ conceived.
+@@ -8565,11 +8571,20 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  				<username>@internet.beeline</username>
@@ -53,7 +53,7 @@ index e6cd8f95..67e0ee42 100644
  		<gsm>
  			<network-id mcc="401" mnc="02"/>
  			<apn value="internet">
-@@ -8570,16 +8585,6 @@ conceived.
+@@ -8595,16 +8610,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

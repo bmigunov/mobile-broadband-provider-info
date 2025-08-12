@@ -8,15 +8,15 @@ Subject: [PATCH] Added settings for Bolivia. Fixes JB#39492
  1 file changed, 55 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 07b7a74e..2712f6ff 100644
+index 9f26f264..e599b58c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -1741,6 +1741,61 @@ conceived.
  	</provider>
  </country>
  
-+<!-- Bolivia -->
 +<country code="bo">
++	<name>Bolivia</name>
 +	<provider>
 +		<name>Viva</name>
 +		<gsm>
@@ -70,6 +70,6 @@ index 07b7a74e..2712f6ff 100644
 +	</provider>
 +</country>
 +
- <!-- Brazil -->
  <country code="br">
+ 	<name>Brazil</name>
  	<provider>

@@ -8,15 +8,15 @@ Subject: [PATCH] a Gibraltar provider has been added
  1 file changed, 21 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 308d1329..eca74bee 100644
+index 724151e4..50dee291 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5569,6 +5569,27 @@ conceived.
+@@ -5594,6 +5594,27 @@ conceived.
  	</provider>
  </country>
  
-+<!-- Gibraltar -->
 +<country code="gi">
++	<name>Gibraltar</name>
 +	<provider>
 +		<name>Gibtelcom</name>
 +		<gsm>
@@ -36,6 +36,6 @@ index 308d1329..eca74bee 100644
 +	</provider>
 +</country>
 +	
- <!-- Guernsey -->
  <country code="gg">
+ 	<name>Guernsey</name>
  	<provider>

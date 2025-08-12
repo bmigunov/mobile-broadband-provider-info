@@ -8,10 +8,10 @@ Subject: [PATCH] Remove Polish mobile network Cyfrowy Polsat
  1 file changed, 20 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index b4ac1e28..8b88672f 100644
+index 523f72a1..0460f12c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11298,22 +11298,6 @@ conceived.
+@@ -11323,22 +11323,6 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -34,7 +34,7 @@ index b4ac1e28..8b88672f 100644
  	<provider primary="true">
  		<name>aero2</name>
  		<gsm>
-@@ -11337,10 +11321,6 @@ conceived.
+@@ -11362,10 +11346,6 @@ conceived.
  				<password>internet</password>
  			</apn>
  		</gsm>

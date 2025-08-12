@@ -8,14 +8,14 @@ Subject: [PATCH] Added the name for Telenor DK internet AP
  1 file changed, 1 insertion(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 75c81e71..8b1abe94 100644
+index 506b8490..a3482e74 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3804,6 +3804,7 @@ conceived.
+@@ -3814,6 +3814,7 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
 +				<name>Telenor</name>
- 				<dns>212.88.64.199</dns>
- 				<dns>212.88.64.14</dns>
+ 				<dns>212.242.40.3</dns>
+ 				<dns>212.242.40.51</dns>
  			</apn>
