@@ -8,10 +8,10 @@ Subject: [PATCH] Settings for Cricket Wireless (USA)
  1 file changed, 17 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 3f2fcf15..9063f8ec 100644
+index eff869a8..8c9edc48 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -14254,6 +14254,23 @@ conceived.
+@@ -14265,6 +14265,23 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

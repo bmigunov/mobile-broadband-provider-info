@@ -8,10 +8,10 @@ Subject: [PATCH] Virgin Mobile (France) settings
  1 file changed, 16 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 557e82d2..e66c3901 100644
+index 497cbeab..95a116aa 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5218,6 +5218,22 @@ conceived.
+@@ -5284,6 +5284,22 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

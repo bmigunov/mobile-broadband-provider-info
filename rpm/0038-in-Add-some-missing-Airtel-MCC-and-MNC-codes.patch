@@ -9,14 +9,14 @@ http://www.indiantelecomnews.com/airtel-gprs-3g-settings-manual-internet-configu
 
 Signed-off-by: Marko Saukko <marko.saukko@jolla.com>
 ---
- serviceproviders.xml | 5 +++++
- 1 file changed, 5 insertions(+)
+ serviceproviders.xml | 4 ++++
+ 1 file changed, 4 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 2246bf50..3bbd6484 100644
+index 981c565c..d62dc080 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6791,6 +6791,7 @@ conceived.
+@@ -6825,6 +6825,7 @@ conceived.
  			<network-id mcc="404" mnc="03"/>
  			<network-id mcc="404" mnc="06"/>
  			<network-id mcc="404" mnc="10"/>
@@ -24,12 +24,12 @@ index 2246bf50..3bbd6484 100644
  			<network-id mcc="404" mnc="28"/>
  			<network-id mcc="404" mnc="31"/>
  			<network-id mcc="404" mnc="37"/>
-@@ -6803,12 +6804,16 @@ conceived.
+@@ -6837,13 +6838,16 @@ conceived.
  			<network-id mcc="404" mnc="90"/>
  			<network-id mcc="404" mnc="92"/>
  			<network-id mcc="404" mnc="93"/>
 +			<network-id mcc="404" mnc="94"/>
-+			<network-id mcc="404" mnc="95"/>
+ 			<network-id mcc="404" mnc="95"/>
  			<network-id mcc="404" mnc="96"/>
  			<network-id mcc="404" mnc="97"/>
  			<network-id mcc="404" mnc="98"/>

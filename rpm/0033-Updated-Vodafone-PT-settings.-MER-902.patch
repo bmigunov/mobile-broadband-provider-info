@@ -8,10 +8,10 @@ Subject: [PATCH] Updated Vodafone PT settings. MER#902
  1 file changed, 11 insertions(+), 3 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e8a1240a..3f60c6c6 100644
+index 7e65e813..2b160ce8 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -11819,6 +11819,11 @@ conceived.
+@@ -11847,6 +11847,11 @@ conceived.
  		<name>Vodafone</name>
  		<gsm>
  			<network-id mcc="268" mnc="01"/>
@@ -23,7 +23,7 @@ index e8a1240a..3f60c6c6 100644
  			<apn value="internet.vodafone.pt">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
-@@ -11829,9 +11834,12 @@ conceived.
+@@ -11857,9 +11862,12 @@ conceived.
  				<dns>212.18.160.134</dns>
  			</apn>
  			<apn value="net2.vodafone.pt">

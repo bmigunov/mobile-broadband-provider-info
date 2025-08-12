@@ -9,10 +9,10 @@ O.tel.o, BildMobil etc. are MVNO's on Vodafone network
  1 file changed, 5 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 9063f8ec..7000cca3 100644
+index 8c9edc48..7ae1822b 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3527,7 +3527,7 @@ conceived.
+@@ -3558,7 +3558,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -21,7 +21,7 @@ index 9063f8ec..7000cca3 100644
  		<name>Vodafone</name>
  		<gsm>
  			<network-id mcc="262" mnc="02"/>
-@@ -3545,6 +3545,7 @@ conceived.
+@@ -3576,6 +3576,7 @@ conceived.
  			<apn value="web.vodafone.de">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -29,7 +29,7 @@ index 9063f8ec..7000cca3 100644
  				<dns>139.7.30.125</dns>
  				<dns>139.7.30.126</dns>
  			</apn>
-@@ -3559,7 +3560,9 @@ conceived.
+@@ -3590,7 +3591,9 @@ conceived.
  			</apn>
  			<apn value="event.vodafone.de">
  				<usage type="mms"/>

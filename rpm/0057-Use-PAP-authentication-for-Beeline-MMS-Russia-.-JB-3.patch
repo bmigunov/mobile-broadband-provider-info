@@ -1,0 +1,21 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Slava Monich <slava.monich@jolla.com>
+Date: Fri, 16 Jun 2017 17:45:04 +0300
+Subject: [PATCH] Use PAP authentication for Beeline MMS (Russia). JB#38972
+
+---
+ serviceproviders.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/serviceproviders.xml b/serviceproviders.xml
+index 7572e1ad..07b7a74e 100644
+--- a/serviceproviders.xml
++++ b/serviceproviders.xml
+@@ -12130,6 +12130,7 @@ conceived.
+ 				<name>Beeline MMS</name>
+ 				<username>beeline</username>
+ 				<password>beeline</password>
++				<authentication method="pap"/>
+ 				<mmsc>http://mms/</mmsc>
+ 				<mmsproxy>192.168.94.23:8080</mmsproxy>
+ 			</apn>

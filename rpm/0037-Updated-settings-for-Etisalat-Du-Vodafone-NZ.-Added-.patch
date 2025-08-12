@@ -9,10 +9,10 @@ Subject: [PATCH] Updated settings for Etisalat, Du, Vodafone NZ. Added Spark
  1 file changed, 47 insertions(+), 4 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 7ad35e1c..2246bf50 100644
+index f29f08db..981c565c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -81,9 +81,11 @@ conceived.
+@@ -88,9 +88,11 @@ conceived.
  			</apn>
  			<apn value="etisalat">
  				<usage type="mms"/>
@@ -26,7 +26,7 @@ index 7ad35e1c..2246bf50 100644
  			</apn>
  		</gsm>
  	</provider>
-@@ -97,6 +99,13 @@ conceived.
+@@ -104,6 +106,13 @@ conceived.
  			<apn value="du">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
@@ -40,7 +40,7 @@ index 7ad35e1c..2246bf50 100644
  			</apn>
  			<apn value="du">
  				<usage type="mms"/>
-@@ -10533,16 +10542,50 @@ conceived.
+@@ -10571,16 +10580,50 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>

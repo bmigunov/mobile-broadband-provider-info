@@ -5,14 +5,14 @@ Subject: [PATCH] gb: Distiguish MNOs (primary providers) from MVNOs
 
 Checked from http://www.ofcom.org.uk/static/numbering/#mnc
 ---
- serviceproviders.xml | 15 ++++++++-------
- 1 file changed, 8 insertions(+), 7 deletions(-)
+ serviceproviders.xml | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e63c3e01..3e436be1 100644
+index 9b1acc35..cd593570 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5221,7 +5221,7 @@ conceived.
+@@ -5287,7 +5287,7 @@ conceived.
  
  <!-- Britain -->
  <country code="gb">
@@ -21,7 +21,7 @@ index e63c3e01..3e436be1 100644
  		<name>BT Mobile</name>
  		<gsm>
  			<network-id mcc="234" mnc="00"/>
-@@ -5251,7 +5251,7 @@ conceived.
+@@ -5351,7 +5351,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -30,7 +30,7 @@ index e63c3e01..3e436be1 100644
  		<name>O2</name>
  		<gsm>
  			<network-id mcc="234" mnc="02"/>
-@@ -5340,10 +5340,11 @@ conceived.
+@@ -5440,10 +5440,11 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -43,16 +43,7 @@ index e63c3e01..3e436be1 100644
  			<apn value="mobile.talktalk.co.uk">
  				<gateway>212.183.137.12:8799</gateway>
  				<username>wap</username>
-@@ -5351,7 +5352,7 @@ conceived.
- 			</apn>
- 		</gsm>
- 	</provider>
--	<provider>
-+	<provider primary="true">
- 		<name>T-Mobile</name>
- 		<gsm>
- 			<network-id mcc="234" mnc="30"/>
-@@ -5432,7 +5433,7 @@ conceived.
+@@ -5492,7 +5493,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -61,7 +52,7 @@ index e63c3e01..3e436be1 100644
  		<name>Vodafone</name>
  		<gsm>
  			<network-id mcc="234" mnc="15"/>
-@@ -5506,7 +5507,7 @@ conceived.
+@@ -5566,7 +5567,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -70,12 +61,3 @@ index e63c3e01..3e436be1 100644
  		<name>3</name>
  		<gsm>
  			<network-id mcc="234" mnc="20"/>
-@@ -5524,7 +5525,7 @@ conceived.
- 			</apn>
- 		</gsm>
- 	</provider>
--	<provider>
-+	<provider primary="true">
- 		<name>Orange</name>
- 		<gsm>
- 			<network-id mcc="234" mnc="33"/>
