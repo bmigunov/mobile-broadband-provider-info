@@ -8,7 +8,7 @@ Subject: [PATCH] Moved working Telstra AU settings to the top of the list
  1 file changed, 18 insertions(+), 13 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 7fd26331..f5a13ed9 100644
+index c71fb5e4..a5ba7144 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -998,6 +998,13 @@ conceived.

@@ -9,10 +9,10 @@ http://www.telenor.hu/android/mobil/beallitasok/angol
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index a3482e74..0e22fdc6 100644
+index e9777594..2f05091e 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -6305,7 +6305,7 @@ conceived.
+@@ -6328,7 +6328,7 @@ conceived.
  		<name>Telenor</name>
  		<gsm>
  			<network-id mcc="216" mnc="01"/>

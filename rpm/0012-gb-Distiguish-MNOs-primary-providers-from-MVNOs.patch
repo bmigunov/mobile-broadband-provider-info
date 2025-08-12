@@ -9,10 +9,10 @@ Checked from http://www.ofcom.org.uk/static/numbering/#mnc
  1 file changed, 6 insertions(+), 5 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index cd878702..3918e115 100644
+index e9b07d08..d445791a 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -5297,7 +5297,7 @@ conceived.
+@@ -5303,7 +5303,7 @@ conceived.
  
  <country code="gb">
  	<name>Britain</name>
@@ -21,7 +21,7 @@ index cd878702..3918e115 100644
  		<name>BT Mobile</name>
  		<gsm>
  			<network-id mcc="234" mnc="00"/>
-@@ -5361,7 +5361,7 @@ conceived.
+@@ -5383,7 +5383,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -30,7 +30,7 @@ index cd878702..3918e115 100644
  		<name>O2</name>
  		<gsm>
  			<network-id mcc="234" mnc="02"/>
-@@ -5465,10 +5465,11 @@ conceived.
+@@ -5488,10 +5488,11 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -43,7 +43,7 @@ index cd878702..3918e115 100644
  			<apn value="mobile.talktalk.co.uk">
  				<gateway>212.183.137.12:8799</gateway>
  				<username>wap</username>
-@@ -5517,7 +5518,7 @@ conceived.
+@@ -5540,7 +5541,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -52,7 +52,7 @@ index cd878702..3918e115 100644
  		<name>Vodafone</name>
  		<gsm>
  			<network-id mcc="234" mnc="15"/>
-@@ -5591,7 +5592,7 @@ conceived.
+@@ -5614,7 +5615,7 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

@@ -8,10 +8,10 @@ Subject: [PATCH] Added MMS settings for MTNL India. Contributes to JB#34083
  1 file changed, 5 insertions(+), 3 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 082d2ad8..52c252a2 100644
+index ef3980c3..d29c59dc 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -7107,11 +7107,13 @@ conceived.
+@@ -7047,11 +7047,13 @@ conceived.
  				<username>mtnl</username>
  				<password>mtnl123</password>
  			</apn>

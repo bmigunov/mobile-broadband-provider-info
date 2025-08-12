@@ -8,10 +8,10 @@ Subject: [PATCH] Added the name for Telenor DK internet AP
  1 file changed, 1 insertion(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 506b8490..a3482e74 100644
+index d69070de..e9777594 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3814,6 +3814,7 @@ conceived.
+@@ -3820,6 +3820,7 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>
