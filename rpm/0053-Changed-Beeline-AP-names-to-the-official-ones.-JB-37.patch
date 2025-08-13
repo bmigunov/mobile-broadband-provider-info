@@ -8,7 +8,7 @@ Subject: [PATCH] Changed Beeline AP names to the official ones. JB#37626
  1 file changed, 2 insertions(+), 5 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index fbdd106b..9ae54c1b 100644
+index fbdd106be..9ae54c1b9 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -12010,7 +12010,6 @@ conceived.

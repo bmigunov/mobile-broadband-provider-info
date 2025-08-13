@@ -8,7 +8,7 @@ Subject: [PATCH] Update of Kazakh and Kyrgyz operators. MER#902
  1 file changed, 17 insertions(+), 12 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index c85b5ad1..02b0eaef 100644
+index c85b5ad1d..02b0eaef7 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -8143,12 +8143,18 @@ conceived.

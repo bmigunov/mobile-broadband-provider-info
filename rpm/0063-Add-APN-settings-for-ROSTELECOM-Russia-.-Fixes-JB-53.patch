@@ -9,7 +9,7 @@ Rostelecom is a Tele2 RU -based MVNO.
  1 file changed, 22 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 268bfcd9..4dec4af6 100644
+index 268bfcd9c..4dec4af61 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -12184,7 +12184,7 @@ conceived.

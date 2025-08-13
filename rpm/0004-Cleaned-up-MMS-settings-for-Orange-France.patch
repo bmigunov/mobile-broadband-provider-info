@@ -8,7 +8,7 @@ Subject: [PATCH] Cleaned up MMS settings for Orange France
  1 file changed, 1 insertion(+), 13 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 29806528..d29375c1 100644
+index 29806528c..d29375c1f 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -5134,6 +5134,7 @@ conceived.

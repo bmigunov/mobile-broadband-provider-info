@@ -8,7 +8,7 @@ Subject: [PATCH] MMS settings for 3 DK
  1 file changed, 6 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index f3480229..e0e95ff9 100644
+index f34802295..e0e95ff9b 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -3817,6 +3817,12 @@ conceived.

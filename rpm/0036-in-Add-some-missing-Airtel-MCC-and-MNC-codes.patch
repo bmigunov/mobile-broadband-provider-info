@@ -13,7 +13,7 @@ Signed-off-by: Marko Saukko <marko.saukko@jolla.com>
  1 file changed, 4 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 72b60558..63f9ea43 100644
+index 72b605588..63f9ea43d 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -6963,6 +6963,7 @@ conceived.

@@ -8,7 +8,7 @@ Subject: [PATCH] Iran and Iraq providers update
  1 file changed, 34 insertions(+), 23 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index dc8e8870..bb6018f7 100644
+index dc8e8870d..bb6018f77 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -7339,27 +7339,6 @@ conceived.

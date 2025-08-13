@@ -8,7 +8,7 @@ Subject: [PATCH] a Gibraltar provider has been added
  1 file changed, 21 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 634bac62..4d883b09 100644
+index 634bac626..4d883b096 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -5731,6 +5731,27 @@ conceived.

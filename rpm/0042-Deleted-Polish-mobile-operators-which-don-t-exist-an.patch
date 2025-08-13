@@ -14,7 +14,7 @@ Aster is no more.
  1 file changed, 12 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index d4a00b35..c04df346 100644
+index d4a00b358..c04df3460 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -11185,12 +11185,6 @@ conceived.

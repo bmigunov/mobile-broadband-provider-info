@@ -9,7 +9,7 @@ http://www.telenor.hu/android/mobil/beallitasok/angol
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e2fe71bb..0b1ea975 100644
+index e2fe71bb5..0b1ea9750 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -6442,7 +6442,7 @@ conceived.

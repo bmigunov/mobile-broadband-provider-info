@@ -8,7 +8,7 @@ Subject: [PATCH] Added MMS settings
  1 file changed, 1454 insertions(+), 525 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 75933d16..a8e10e37 100644
+index 75933d163..a8e10e371 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -90,13 +90,7 @@ conceived.

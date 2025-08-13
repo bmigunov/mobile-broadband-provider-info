@@ -11,7 +11,7 @@ https://no.wikipedia.org/wiki/Chess_Communication
  1 file changed, 39 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 1c358a41..e0b0d615 100644
+index 1c358a418..e0b0d6153 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -10411,35 +10411,6 @@ conceived.

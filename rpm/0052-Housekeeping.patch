@@ -8,7 +8,7 @@ Subject: [PATCH] Housekeeping
  1 file changed, 6 insertions(+), 6 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 84cfd1ed..fbdd106b 100644
+index 84cfd1ed8..fbdd106be 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -10280,7 +10280,7 @@ conceived.

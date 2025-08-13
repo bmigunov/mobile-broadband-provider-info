@@ -8,7 +8,7 @@ Subject: [PATCH] Remove Polish mobile network Cyfrowy Polsat
  1 file changed, 20 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 5ccfc2fc..17cf8a37 100644
+index 5ccfc2fc0..17cf8a374 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -11240,22 +11240,6 @@ conceived.

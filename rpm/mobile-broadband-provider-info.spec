@@ -93,6 +93,7 @@ Patch0078: 0078-Chess-and-Ludo-mobil-removed-from-Norge-MVNO.patch
 Patch0079: 0079-Fix-Orange-Belgium-network-APN.patch
 Patch0080: 0080-Adding-Voicemail-number-on-the-Belgium-Orange-Networ.patch
 Patch0081: 0081-Fix-Mobile-Vikings-MNC-code-was-not-correct-so-link-.patch
+Patch0082: 0082-Add-back-auhentication-method-any.patch
 
 %description
 This package contains mobile broadband settings for different service providers

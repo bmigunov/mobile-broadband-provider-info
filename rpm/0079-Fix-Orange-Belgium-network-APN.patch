@@ -8,7 +8,7 @@ Subject: [PATCH] Fix Orange Belgium network APN
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e0b0d615..6514e457 100644
+index e0b0d6153..6514e4572 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -1506,9 +1506,10 @@ conceived.

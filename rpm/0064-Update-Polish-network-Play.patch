@@ -8,7 +8,7 @@ Subject: [PATCH] Update Polish network Play
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 4dec4af6..5ccfc2fc 100644
+index 4dec4af61..5ccfc2fc0 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -11122,7 +11122,8 @@ conceived.

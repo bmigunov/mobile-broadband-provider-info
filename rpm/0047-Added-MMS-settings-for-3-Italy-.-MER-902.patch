@@ -8,7 +8,7 @@ Subject: [PATCH] Added MMS settings for 3 (Italy). MER#902
  1 file changed, 7 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 72d6912e..266b9703 100644
+index 72d6912ed..266b97039 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -7435,9 +7435,14 @@ conceived.

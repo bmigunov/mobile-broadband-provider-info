@@ -9,7 +9,7 @@ AT&T has been marked as the primary provider. They share MNC with Cricket.
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 06d79bc9..057c8140 100644
+index 06d79bc98..057c8140e 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -14240,7 +14240,7 @@ conceived.

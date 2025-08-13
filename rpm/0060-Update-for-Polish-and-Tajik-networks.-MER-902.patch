@@ -17,7 +17,7 @@ Tajik mobile operators added to the list
  1 file changed, 91 insertions(+), 36 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 0ce261cb..c85b5ad1 100644
+index 0ce261cb2..c85b5ad1d 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -11118,7 +11118,6 @@ conceived.

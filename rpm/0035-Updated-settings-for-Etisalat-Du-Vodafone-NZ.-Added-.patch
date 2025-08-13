@@ -9,7 +9,7 @@ Subject: [PATCH] Updated settings for Etisalat, Du, Vodafone NZ. Added Spark
  1 file changed, 47 insertions(+), 4 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index eadf833c..72b60558 100644
+index eadf833c6..72b605588 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -88,9 +88,11 @@ conceived.

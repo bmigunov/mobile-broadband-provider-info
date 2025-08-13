@@ -9,7 +9,7 @@ Otvarta and UPS Polska added to Polish providers section
  1 file changed, 32 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index e9eea59b..48442908 100644
+index e9eea59b4..48442908d 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -11491,6 +11491,38 @@ conceived.

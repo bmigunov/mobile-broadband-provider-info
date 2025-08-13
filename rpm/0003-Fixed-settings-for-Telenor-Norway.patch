@@ -17,7 +17,7 @@ so let's fix it for Telenor customers and let those Ventelo customers with
  1 file changed, 10 insertions(+), 16 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index cd8bbe1e..29806528 100644
+index cd8bbe1e4..29806528c 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -10565,26 +10565,12 @@ conceived.

@@ -8,7 +8,7 @@ Subject: [PATCH] United Arab Emirates providers update
  1 file changed, 1 insertion(+), 12 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 91ae09dd..1c358a41 100644
+index 91ae09dd3..1c358a418 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -72,27 +72,16 @@ conceived.

@@ -8,7 +8,7 @@ Subject: [PATCH] Marked Telia Norway as primary, updated the settings. MER#902
  1 file changed, 8 insertions(+), 11 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index cc96034c..0da564e4 100644
+index cc96034cd..0da564e4e 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -10248,8 +10248,8 @@ conceived.

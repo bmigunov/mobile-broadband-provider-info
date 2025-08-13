@@ -16,7 +16,7 @@ https://support.mobilevikings.be/hc/nl/articles/202836041-Ik-heb-geen-mobiel-int
  1 file changed, 3 insertions(+), 2 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index b49cfcf9..8171c542 100644
+index b49cfcf95..8171c542a 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -1574,11 +1574,12 @@ conceived.

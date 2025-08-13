@@ -9,7 +9,7 @@ It's not being used by ofono and is hopelessly out of date.
  1 file changed, 411 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index bd09cd32..eadf833c 100644
+index bd09cd32a..eadf833c6 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
 @@ -78,8 +78,6 @@ conceived.
