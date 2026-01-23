@@ -8,10 +8,10 @@ Subject: [PATCH] Updated settings for MegaFon Russia. MER#902
  1 file changed, 3 insertions(+), 6 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 057c8140e..084680db8 100644
+index 8161e6f00..76ffce4cf 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -12351,8 +12351,7 @@ conceived.
+@@ -12356,8 +12356,7 @@ conceived.
  	</provider>
  	<provider>
  		<name>Megafon</name>
@@ -21,7 +21,7 @@ index 057c8140e..084680db8 100644
  		<gsm>
  			<network-id mcc="250" mnc="02"/>
  			<balance-check>
-@@ -12361,10 +12360,8 @@ conceived.
+@@ -12366,10 +12365,8 @@ conceived.
  			<apn value="internet">
  				<plan type="postpaid"/>
  				<usage type="internet"/>

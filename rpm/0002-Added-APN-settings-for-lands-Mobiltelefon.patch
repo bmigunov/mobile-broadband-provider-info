@@ -12,10 +12,10 @@ Content-Transfer-Encoding: 8bit
  1 file changed, 16 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index a8e10e371..cd8bbe1e4 100644
+index 19be4c465..de3194043 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -4962,6 +4962,22 @@ conceived.
+@@ -5005,6 +5005,22 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>

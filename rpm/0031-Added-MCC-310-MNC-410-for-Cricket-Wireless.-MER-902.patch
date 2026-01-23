@@ -9,19 +9,19 @@ AT&T has been marked as the primary provider. They share MNC with Cricket.
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 06d79bc98..057c8140e 100644
+index e5cacb316..8161e6f00 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -14240,7 +14240,7 @@ conceived.
- 			<channels start="4379" end="4379"/>
- 		</level>
- 	</cbs>
+@@ -14261,7 +14261,7 @@ conceived.
+ 			<callee type="fire-brigade"/>
+ 		</emergency-number>
+ 	</emergency-numbers>
 -	<provider>
 +	<provider primary="true">
  		<name>AT&amp;T</name>
  		<gsm>
  			<network-id mcc="310" mnc="030"/>
-@@ -14305,6 +14305,7 @@ conceived.
+@@ -14326,6 +14326,7 @@ conceived.
  		<name>Cricket Wireless</name>
  		<gsm>
  			<network-id mcc="310" mnc="150"/>

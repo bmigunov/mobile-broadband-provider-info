@@ -8,10 +8,10 @@ Subject: [PATCH] LTE compatible configuration for Telekom DE
  1 file changed, 8 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 472608613..8cf3623e7 100644
+index c68be08ed..cd9f8de31 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -3594,6 +3594,14 @@ conceived.
+@@ -3618,6 +3618,14 @@ conceived.
  				<usage type="internet"/>
  				<name>Business Smart Connect</name>
  			</apn>

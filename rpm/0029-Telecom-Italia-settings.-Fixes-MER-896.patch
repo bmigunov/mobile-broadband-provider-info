@@ -10,10 +10,10 @@ MVNO or not, Noverca seems to have MNC of its own these days.
  1 file changed, 18 insertions(+), 13 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 8cf3623e7..0c51801a2 100644
+index cd9f8de31..b46ec3da8 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -7607,14 +7607,14 @@ conceived.
+@@ -7650,14 +7650,14 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
@@ -30,7 +30,7 @@ index 8cf3623e7..0c51801a2 100644
  				<dns>217.200.200.42</dns>
  				<dns>213.230.129.10</dns>
  			</apn>
-@@ -7626,23 +7626,28 @@ conceived.
+@@ -7669,23 +7669,28 @@ conceived.
  				<dns>213.230.155.94</dns>
  				<dns>213.230.130.222</dns>
  			</apn>
