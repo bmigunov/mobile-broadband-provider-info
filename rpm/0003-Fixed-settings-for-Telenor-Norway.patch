@@ -17,10 +17,10 @@ so let's fix it for Telenor customers and let those Ventelo customers with
  1 file changed, 10 insertions(+), 16 deletions(-)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index cd8bbe1e4..29806528c 100644
+index de3194043..081d23581 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10565,26 +10565,12 @@ conceived.
+@@ -10598,26 +10598,12 @@ conceived.
  				<mmsc>http://mmsc</mmsc>
  				<mmsproxy>mms-proxy.telenor.no:8080</mmsproxy>
  			</apn>
@@ -49,7 +49,7 @@ index cd8bbe1e4..29806528c 100644
  				<mmsproxy>10.10.10.11:8080</mmsproxy>
  			</apn>
  		</gsm>
-@@ -10661,6 +10647,14 @@ conceived.
+@@ -10694,6 +10680,14 @@ conceived.
  				<plan type="postpaid"/>
  				<usage type="internet"/>
  			</apn>

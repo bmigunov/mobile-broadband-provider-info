@@ -8,10 +8,10 @@ Subject: [PATCH] Added information abouot One Call Norway. MER#902
  1 file changed, 17 insertions(+)
 
 diff --git a/serviceproviders.xml b/serviceproviders.xml
-index 38c10775b..cc96034cd 100644
+index 5c71b7de1..4060fb097 100644
 --- a/serviceproviders.xml
 +++ b/serviceproviders.xml
-@@ -10294,6 +10294,23 @@ conceived.
+@@ -10333,6 +10333,23 @@ conceived.
  			</apn>
  		</gsm>
  	</provider>
